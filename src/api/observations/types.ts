@@ -24,6 +24,8 @@ export interface ViolationType {
 }
 
 export interface Violation {
+  name: string;
+  category: string;
   id: string;
   observation_id: string;
   violation_type_id: string;

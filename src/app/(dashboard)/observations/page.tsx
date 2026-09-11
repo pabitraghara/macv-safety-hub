@@ -256,7 +256,7 @@ export default function ObservationsPage() {
                   <TableCell>
                     <div className="h-16 w-24 overflow-hidden rounded bg-black">
                       <video
-                        src={observation.thumbnail_url}
+                        src={observation.thumbnail_url ?? undefined}
                         muted
                         playsInline
                         className="h-full w-full object-cover"

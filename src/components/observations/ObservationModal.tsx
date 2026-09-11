@@ -30,7 +30,7 @@ interface ObservationModalProps {
 }
 
 // Helper parser for local TXT descriptions
-function parseRawDescription(rawText: string) {
+function parseRawDescription(rawText: string, observationCode: string = "") {
   const violations: Violation[] = [];
   let summaryText = "";
 
@@ -44,18 +44,64 @@ function parseRawDescription(rawText: string) {
       try {
         const validJsonStr = match.replace(/'/g, '"');
         const parsed = JSON.parse(validJsonStr);
+
         violations.push({
           id: `v-${idx}`,
-          name: parsed.name,
-          category: parsed.severity,
+          name: parsed.name || "Unknown Violation",
+          category: "Safety",
+          observation_id: observationCode || `obs-${idx}`,
+          violation_type_id: `vt-${idx}`,
+          description: parsed.description || null,
+          confidence_score: null,
+          meta_data: {
+            severity: parsed.severity || "Low",
+          },
+          created_by: null,
+          created_at: new Date().toISOString(),
+          updated_at: new Date().toISOString(),
+          is_deleted: false,
+          violation_type: {
+            id: `vt-${idx}`,
+            name: parsed.name || "Unknown Violation",
+            code: `VT-${idx}`,
+            category: "Safety",
+            description: parsed.description || "",
+            severity: parsed.severity || "Low",
+          } as unknown as Violation["violation_type"],
         });
       } catch (e) {
         const nameMatch = match.match(/'name':\s*'([^']+)'/);
+        const descMatch = match.match(/'description':\s*'([^']+)'/);
+        const sevMatch = match.match(/'severity':\s*'([^']+)'/);
+
         if (nameMatch) {
+          const nameVal = nameMatch[1];
+          const descVal = descMatch ? descMatch[1] : null;
+          const sevVal = sevMatch ? sevMatch[1] : "Low";
+
           violations.push({
             id: `v-${idx}`,
-            name: nameMatch[1],
-            category: "Observation",
+            name: nameVal,
+            category: "Safety",
+            observation_id: observationCode || `obs-${idx}`,
+            violation_type_id: `vt-${idx}`,
+            description: descVal,
+            confidence_score: null,
+            meta_data: {
+              severity: sevVal,
+            },
+            created_by: null,
+            created_at: new Date().toISOString(),
+            updated_at: new Date().toISOString(),
+            is_deleted: false,
+            violation_type: {
+              id: `vt-${idx}`,
+              name: nameVal,
+              code: `VT-${idx}`,
+              category: "Safety",
+              description: descVal || "",
+              severity: sevVal,
+            } as unknown as Violation["violation_type"],
           });
         }
       }
@@ -114,7 +160,7 @@ export function ObservationModal({
         }
 
         const { summaryText, violations: parsedViolations } =
-          parseRawDescription(matchedItem.description);
+          parseRawDescription(matchedItem.description, matchedItem.code);
 
         const formattedObs: Observation = {
           id: matchedItem.id,
@@ -126,7 +172,14 @@ export function ObservationModal({
           thumbnail_url: matchedItem.videoUrl,
           video_url: matchedItem.videoUrl,
           violations: parsedViolations,
-        };
+          site_id: matchedItem.site_id ?? "default-site",
+          reviewed_by: null,
+          reviewed_at: null,
+          review_notes: null,
+          created_at: matchedItem.timestamp || new Date().toISOString(),
+          updated_at: new Date().toISOString(),
+          is_deleted: false,
+        } as unknown as Observation;
 
         setObservation(formattedObs);
         setViolations(parsedViolations);
@@ -242,7 +295,7 @@ export function ObservationModal({
               <LoadingStates
                 isParamsLoaded={true}
                 loading={loading}
-                error={error}
+                error={error ? error.message : null}
                 code={code ?? ""}
               />
             </div>

@@ -24,7 +24,7 @@ export function ObservationMainContent({
       <div className="mt-6 mb-4">
         <p className="font-mono text-sm text-gray-500">{code}</p>
         {observation.description && (
-          <p className="mt-3 text-lg font-semibold text-gray-900">
+          <p className="mt-3 text-sm text-gray-900">
             {observation.description}
           </p>
         )}
@@ -94,11 +94,13 @@ export function ObservationMainContent({
             <DialogTitle className="sr-only">
               {`Observation ${code} thumbnail`}
             </DialogTitle>
-            <img
-              src={observation.thumbnail_url}
-              alt={`Observation ${code} thumbnail`}
-              className="h-auto max-h-[85vh] w-full rounded-lg object-contain"
-            />
+            <div className="aspect-video overflow-hidden rounded-lg border border-gray-200 bg-black">
+              <video
+                src={`${observation.thumbnail_url}#t=0.1`}
+                preload="metadata"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </DialogContent>
         </Dialog>
       )}
