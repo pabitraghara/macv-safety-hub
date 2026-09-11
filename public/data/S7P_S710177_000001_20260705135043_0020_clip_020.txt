@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unsecured Electrical Cabling and Potential Electrocution Hazard', 'description': 'Numerous electrical cables are seen running in close proximity to metal structures and machinery without proper insulation or conduit protection. The cables appear loosely bundled and exposed, increasing the risk of short circuits, arcing, or electrocution if contacted by personnel or equipment. This is especially dangerous in an industrial environment where moisture, dust, and mechanical stress can further compromise cable integrity.'}
+
+{'severity': 'High', 'name': 'Structural Corrosion and Rust on Metal Framework', 'description': 'Significant rust and corrosion are visible on steel beams, railings, and support columns. This degradation compromises structural integrity and poses a risk of sudden failure, particularly under load or during maintenance activities. The presence of deteriorated metal components increases the likelihood of collapse or falling debris, endangering workers nearby.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Fall Protection at Elevated Platforms', 'description': 'The video shows elevated walkways and platforms with incomplete guardrails or missing safety barriers. Workers operating in these areas are at risk of falling, especially given the height and complex layout of the structure. While no worker is visible, the absence of fall arrest systems or proper edge protection indicates a systemic safety deficiency.'}
+
+{'severity': 'Low', 'name': 'Poor Housekeeping and Debris Accumulation', 'description': 'There is visible accumulation of dust, loose materials, and debris within the machinery and around walkways. This creates tripping hazards and may contribute to fire risks or interfere with equipment operation. Although not immediately life-threatening, poor housekeeping reduces overall site safety and maintenance efficiency.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including exposed electrical wiring, corroded structural elements, lack of fall protection, and general disarray. These issues collectively create a hazardous working environment that requires immediate corrective actions to prevent accidents and ensure compliance with occupational safety standards.

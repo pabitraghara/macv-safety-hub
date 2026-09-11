@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Height', 'description': 'Workers are observed operating on elevated scaffolding and structural platforms without visible fall protection systems such as harnesses, guardrails, or safety nets. The absence of fall arrest equipment poses a severe risk of fatal injury in the event of a slip or misstep.'}
+
+{'severity': 'High', 'name': 'Inadequate Barricading and Access Control', 'description': 'The construction area is partially cordoned off with temporary tape, but the barrier appears weak and insufficient to prevent unauthorized access. Workers can easily bypass it, increasing the risk of accidents from falling objects or unexpected machinery movement.'}
+
+{'severity': 'Medium', 'name': 'Improper Storage of Tools and Equipment', 'description': 'Heavy tools and materials, including metal frames and chains, are left unsecured on the ground near walkways. This creates tripping hazards and may lead to injuries if items are dislodged by movement or machinery.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Safety Signage', 'description': 'Although some safety notices are posted on the building, they are not clearly visible or accessible to all workers. Additional signage indicating high-risk zones, restricted areas, or emergency procedures is needed for improved awareness.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, particularly concerning fall protection, site organization, and hazard communication.

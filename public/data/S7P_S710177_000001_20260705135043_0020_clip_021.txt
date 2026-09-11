@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Stairway Guardrails', 'description': 'The metal stairway lacks proper guardrails on one side, exposing a significant fall hazard. The railing appears to be missing or improperly installed, increasing the risk of falls for personnel ascending or descending the stairs.'}
+
+{'severity': 'Medium', 'name': 'Rust and Corrosion on Structural Components', 'description': 'Visible rust and corrosion are present on metal beams, railings, and support structures, indicating potential structural degradation. This could compromise the integrity of the staircase and surrounding framework over time, especially in industrial environments with exposure to moisture or chemicals.'}
+
+{'severity': 'Low', 'name': 'Poor Visibility Due to Cluttered Environment', 'description': 'The area around the stairwell is cluttered with pipes, walkways, and equipment, which may obstruct clear visibility and create tripping hazards. While not immediately dangerous, this contributes to an unsafe working environment and could hinder emergency egress.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a multi-level industrial facility with a metal staircase surrounded by large machinery and structural components. Several safety concerns are observed, including incomplete guardrails, signs of rust and deterioration, and a cluttered layout that affects accessibility and visibility. These conditions collectively pose risks to worker safety, particularly during movement between levels.

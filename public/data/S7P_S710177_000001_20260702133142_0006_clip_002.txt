@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Elevated Work Areas', 'description': 'Workers are observed operating near and on elevated structural steel frameworks without visible fall protection systems such as harnesses, guardrails, or safety nets. The absence of proper fall arrest measures poses a severe risk of fatal injuries in the event of a misstep or slip.'}
+
+{'severity': 'High', 'name': 'Improper Use of Safety Barriers', 'description': 'Red-and-white caution tape is used to cordon off hazardous zones, but it appears loosely strung and insufficiently secured, allowing potential access by unauthorized personnel. This creates a false sense of security and increases the risk of accidental entry into dangerous areas.'}
+
+{'severity': 'Medium', 'name': 'Cluttered and Obstructed Worksite', 'description': 'The ground area is littered with loose materials, wooden frames, debris, and tools, creating tripping hazards. This disorganization can lead to slips, falls, or equipment damage, especially in high-traffic zones.'}
+
+{'severity': 'Low', 'name': 'Inconsistent Personal Protective Equipment (PPE) Usage', 'description': 'While most workers are wearing hard hats and high-visibility vests, some individuals appear to be missing essential PPE such as gloves or safety footwear. Incomplete PPE use reduces overall site safety and may indicate lapses in compliance.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including unprotected work at height, inadequate barriers, cluttered walkways, and inconsistent PPE usage. Immediate corrective actions are required to mitigate critical risks, particularly those related to fall hazards.

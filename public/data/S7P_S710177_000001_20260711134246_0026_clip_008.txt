@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker navigating elevated walkways and platforms without visible fall protection equipment such as harnesses or lanyards. The walkways have open grating with no guardrails or safety netting in certain areas, increasing the risk of falls from height. The presence of unguarded edges and lack of personal fall arrest systems (PFAS) poses a severe safety hazard.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection', 'description': 'Several sections of the walkway are equipped with yellow handrails, but they appear to be incomplete or improperly installed in some areas. In particular, there are gaps between railings and missing intermediate rails, which could allow personnel to slip through or lose balance. This compromises the integrity of fall protection measures.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Obstruction on Walkways', 'description': 'Various tools, cables, and materials are observed lying on or near the walkway surfaces, creating tripping hazards. These obstructions can impede safe movement and increase the risk of slips, trips, and falls, especially in a high-traffic industrial environment.'}
+
+{'severity': 'Low', 'name': 'Inadequate Lighting in Certain Areas', 'description': 'Some areas of the structure appear dimly lit, particularly under the overhangs and in enclosed sections. Poor lighting may reduce visibility and contribute to missteps or accidents, especially during low-light conditions or at night.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most significant concern is the absence of proper fall protection for workers operating at height, combined with structural deficiencies in guardrails and unsafe housekeeping practices. These issues collectively create a hazardous working environment that requires immediate corrective action.

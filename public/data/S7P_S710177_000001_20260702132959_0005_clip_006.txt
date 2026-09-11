@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'Workers are seen operating near elevated platforms and scaffolding without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. This poses a significant risk of fatal falls, especially in areas with open edges and high structures.'}
+
+{'severity': 'High', 'name': 'Improper Use of Warning Signs', 'description': "Although warning signs are present (e.g., 'SAFETY FIRST - CRANE OPERATING OVERHEAD'), they are not consistently positioned or clearly visible in all work zones. Some signs appear to be obstructed or placed at angles that reduce their effectiveness, potentially leading to workers entering restricted areas unaware of overhead crane operations."}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Area with Tripping Hazards', 'description': 'The ground is littered with loose cables, tools, wooden planks, and debris, creating numerous tripping hazards. These obstructions increase the risk of slips, trips, and falls, particularly in high-traffic zones around construction equipment and walkways.'}
+
+{'severity': 'Low', 'name': 'Inadequate Personal Protective Equipment (PPE) Compliance', 'description': 'While most workers are wearing hard hats and high-visibility vests, some individuals appear to have inadequate PPE, such as missing safety goggles or gloves. Inconsistent use of required protective gear increases exposure to eye injuries, cuts, and other minor but preventable incidents.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical concerns include unprotected fall hazards from elevated work areas, while high-risk issues involve poor sign visibility and cluttered environments. Medium and low-level risks relate to general housekeeping and partial PPE compliance.

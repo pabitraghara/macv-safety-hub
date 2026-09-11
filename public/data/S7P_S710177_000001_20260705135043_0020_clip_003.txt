@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The staircase shown in the video is located in an industrial environment with significant height and open sides, yet it lacks proper fall protection such as guardrails on all exposed edges. The metal grating steps appear worn and possibly loose or damaged, increasing the risk of tripping or falling through. Additionally, there are visible gaps between the handrails and the stairs, which could allow a person to slip through, especially if they lose balance. This poses a severe risk of serious injury or fatality due to falls from elevation.'}
+
+{'severity': 'High', 'name': 'Degraded Structural Integrity of Staircase', 'description': 'The metal stair treads exhibit signs of corrosion, wear, and potential structural degradation. Some steps appear bent or misaligned, and debris is present on the surface, indicating poor maintenance. This increases the likelihood of slipping, tripping, or even collapse under load, particularly when carrying tools or equipment.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Lighting and Visibility', 'description': 'The area surrounding the staircase has inconsistent lighting, with some sections appearing dimly lit. Poor visibility can impair safe navigation, especially during shift changes or low-light conditions, contributing to the risk of missteps or collisions with nearby structures.'}
+
+{'severity': 'Low', 'name': 'Clutter and Obstruction Around Stairway', 'description': 'There is evidence of scattered materials, including bags and debris, near the base and along the sides of the staircase. While not immediately hazardous, this clutter can obstruct access and increase trip hazards, particularly for personnel in a hurry or wearing bulky protective gear.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities.

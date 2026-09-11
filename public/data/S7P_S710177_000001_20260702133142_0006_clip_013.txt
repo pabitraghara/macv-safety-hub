@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Exposed Electrical Panel Without Protective Cover', 'description': 'The electrical control panel is left open with no protective cover, exposing live electrical components. This poses a severe risk of electric shock, arc flash, or short circuits to personnel nearby, especially in an industrial environment where dust, moisture, and accidental contact are common. The lack of interlocks or warning signs further increases the hazard.'}
+
+{'severity': 'High', 'name': 'Improper Access to Electrical Equipment', 'description': 'A worker approaches and interacts with the open electrical panel without wearing appropriate personal protective equipment (PPE) such as insulated gloves, arc-flash rated clothing, or safety goggles. This violates electrical safety protocols and exposes the individual to potential electrocution or burn injuries.'}
+
+{'severity': 'Medium', 'name': 'Lack of Warning Signs or Barriers', 'description': "There are no visible warning signs (e.g., 'Danger: High Voltage', 'Do Not Touch') or physical barriers around the exposed electrical panel. This failure to demarcate hazardous areas increases the likelihood of unauthorized or accidental access by workers or visitors."}
+
+{'severity': 'Low', 'name': 'Poor Maintenance of Electrical Enclosure', 'description': 'The electrical enclosure shows signs of rust and wear, indicating inadequate maintenance. While not immediately dangerous, this deterioration can compromise the integrity of the housing over time, increasing the risk of environmental damage to internal components and reducing long-term safety and reliability.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a construction or industrial site with an exposed electrical control panel that is improperly maintained and accessed. Multiple safety violations related to electrical safety are evident, including lack of protective covers, absence of warning signage, and improper worker behavior near high-risk equipment. These conditions create significant hazards for personnel and require immediate corrective actions to prevent accidents.

@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unsecured Structural Components', 'description': 'The video reveals visible signs of rust and corrosion on the yellow handrails and structural joints, indicating potential weakening of load-bearing components. This poses a significant risk of structural failure, especially in an industrial environment where heavy equipment and personnel are present. The compromised integrity of these elements could lead to collapse or sudden failure during use.'}
+
+{'severity': 'High', 'name': 'Inadequate Fall Protection Systems', 'description': 'Although guardrails are present, some sections appear loosely attached or improperly installed, particularly near junctions and stairways. This creates gaps or unstable barriers that do not meet safety standards for fall protection. Workers moving through this area are at high risk of falling due to insufficient or damaged railings.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility Due to Overhead Obstructions', 'description': 'The complex network of overhead pipes, beams, and walkways creates visual obstructions that can impair situational awareness. This increases the likelihood of tripping, bumping into structures, or misjudging distances, especially when operating machinery or carrying materials.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage or Warning Labels', 'description': 'There is no visible signage indicating hazards such as restricted areas, maintenance zones, or operational warnings. While not immediately dangerous, the absence of clear labeling reduces worker awareness and may contribute to procedural non-compliance over time.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical issues include corroded structural components and potentially inadequate fall protection systems, which could result in serious injury or fatality. High-risk concerns involve unstable guardrails, while medium and low-level risks relate to visibility and lack of communication through signage.

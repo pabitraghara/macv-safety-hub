@@ -1,0 +1,18 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Height', 'description': 'Workers are observed near an elevated steel structure with no visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. The structure has open edges and platforms at height, posing a significant risk of falls. No workers are seen wearing harnesses or using anchor points, indicating a critical failure in fall prevention measures.'}
+
+{'severity': 'High', 'name': 'Inadequate Scaffolding Guardrails', 'description': 'The green scaffolding around the base of the steel structure lacks proper guardrails on all sides, especially on the open side facing the ground. This creates a high-risk area where workers could trip or fall, particularly when accessing or working near the structure.'}
+
+{'severity': 'Medium', 'name': 'Improper Storage of Materials', 'description': 'Green pipes are stacked haphazardly on the ground near the work area, creating tripping hazards and obstructing emergency access routes. These materials should be stored securely and organized to prevent accidents.'}
+
+{'severity': 'Medium', 'name': 'Lack of Clear Signage and Barriers', 'description': 'There is no visible warning signage or temporary barriers to demarcate hazardous zones around the steel structure. This increases the risk of unauthorized personnel entering dangerous areas without awareness of the risks involved.'}
+
+{'severity': 'Low', 'name': 'Inconsistent Use of PPE', 'description': 'While most workers are wearing hard hats and high-visibility vests, some individuals appear to be missing or improperly wearing protective gear, such as safety glasses or gloves. This inconsistency may reduce overall safety compliance and increase vulnerability to minor injuries.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical concerns include unprotected fall hazards and inadequate fall protection systems. High-risk issues involve insufficient scaffolding safeguards and poor material storage. Medium-level risks stem from lack of clear signage and inconsistent PPE use. Immediate corrective actions are required to mitigate these hazards and ensure worker safety.

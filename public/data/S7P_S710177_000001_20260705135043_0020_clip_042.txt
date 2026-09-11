@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Platform', 'description': 'The video shows a worker operating on an elevated metal platform with no visible guardrails or fall protection systems in place. The area is surrounded by open edges and structural gaps, creating a high risk of accidental falls. The absence of personal fall arrest systems (PFAS) or safety nets constitutes a severe violation of occupational safety standards.'}
+
+{'severity': 'High', 'name': 'Inadequate Structural Integrity of Walkways', 'description': 'The walkway and support structures appear to be made of corroded and rusted metal, indicating potential degradation over time. This raises concerns about the load-bearing capacity and stability of the platform, especially under dynamic conditions such as movement or equipment handling.'}
+
+{'severity': 'Medium', 'name': 'Lack of Visible Safety Signage', 'description': 'There are no visible warning signs or safety instructions near the work area, which could lead to confusion or unawareness among personnel regarding hazards such as falling objects, moving machinery, or restricted zones.'}
+
+{'severity': 'Low', 'name': 'Improper Cable Management', 'description': 'Cables and chains are loosely hanging and not secured properly, posing a tripping hazard for workers and potentially interfering with equipment operation. While not immediately dangerous, this contributes to a cluttered and unsafe working environment.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including unprotected elevated work surfaces, deteriorating infrastructure, and poor housekeeping practices. Immediate corrective actions are required to mitigate critical risks, particularly related to fall hazards.

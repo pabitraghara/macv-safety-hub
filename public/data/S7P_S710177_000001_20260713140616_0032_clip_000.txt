@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The worker is operating at height near an unguarded edge with no visible fall protection system (e.g., harness, guardrails, or safety nets). The presence of exposed structural beams and open voids indicates a high risk of falling, especially given the lack of any protective barriers.'}
+
+{'severity': 'High', 'name': 'Hazardous Electrical Wiring', 'description': 'Multiple electrical cables are loosely hanging and bundled in a disorganized manner, some appearing frayed or damaged. This creates a significant risk of electrical shock, short circuits, or fire hazards, particularly in a damp or dusty construction environment.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Tripping Hazards', 'description': 'The work area is cluttered with debris, loose cables, and construction materials scattered across the floor. This poses a tripping hazard for personnel moving through the space, increasing the risk of falls and injuries.'}
+
+{'severity': 'Low', 'name': 'Inadequate Lighting', 'description': 'While natural light is present from skylights, certain areas appear dimly lit, which may impair visibility and increase the risk of missteps or accidents, especially when working with tools or navigating around obstacles.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including unprotected heights, hazardous wiring, poor housekeeping, and inadequate lighting. Immediate corrective actions are required to mitigate these risks.

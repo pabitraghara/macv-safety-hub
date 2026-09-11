@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Personal Protective Equipment (PPE) Compliance', 'description': 'Multiple workers are observed wearing high-visibility vests and hard hats, which is appropriate for the construction environment. However, some individuals are not wearing safety goggles or face shields, increasing the risk of eye injuries from dust, debris, or flying particles. Additionally, one worker appears to be without gloves despite handling tools or materials, exposing them to potential cuts or abrasions.'}
+
+{'severity': 'Medium', 'name': 'Unsecured Cables and Electrical Hazards', 'description': 'Electrical cables are visible running along the ground near the building structure and across walkways. These cables are not properly secured or covered, posing tripping hazards and risks of electrical faults or short circuits if damaged. This can lead to falls or electric shocks, especially in a wet or damp environment.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Cluttered Work Area', 'description': 'The site has scattered debris, loose materials, and unorganized equipment such as metal frames and wooden planks lying on the ground. This creates tripping hazards and reduces safe mobility for workers, potentially leading to slips, trips, and falls.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage and Barriers', 'description': 'While there is a safety board displayed near the entrance of the structure, it is not clearly visible or positioned effectively to warn personnel of specific hazards. The absence of proper barricades around hazardous zones or restricted areas may result in unauthorized access to dangerous zones.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a construction site with several workers engaged in discussion and movement within an active work zone. While basic PPE like hard hats and high-visibility vests are generally worn, significant safety gaps remain. Key concerns include incomplete PPE use, exposed electrical cables, cluttered walkways, and insufficient signage. These conditions collectively increase the risk of accidents and indicate a need for improved site safety management.

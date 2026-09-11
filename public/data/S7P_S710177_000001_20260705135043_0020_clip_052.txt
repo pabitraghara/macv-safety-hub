@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Platform', 'description': 'The video shows a metal staircase and platform structure with no visible guardrails or fall protection barriers at the edge. Workers accessing or working on this elevated area are at high risk of falling, especially given the height and open sides. This is a critical violation of occupational safety standards requiring fall protection systems for elevated work areas.'}
+
+{'severity': 'High', 'name': 'Exposed Insulation Material on Structural Components', 'description': 'Large sections of deteriorated insulation material (likely asbestos or similar fibrous substance) are visibly exposed and hanging from structural beams. This poses serious health risks due to potential inhalation of hazardous fibers, particularly in an industrial environment where dust and airborne particles are common. Proper containment or removal is required.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Housekeeping and Cluttered Work Area', 'description': 'The platform and surrounding area contain scattered debris, loose materials, and unsecured equipment, including what appears to be storage containers and tools. This clutter increases trip hazards and could obstruct emergency egress routes, violating workplace housekeeping standards.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Safety Signage', 'description': 'No warning signs, hazard labels, or safety instructions are visible in the immediate vicinity of the staircase or platform. While not immediately dangerous, the absence of signage may contribute to reduced awareness of potential risks such as fall hazards or restricted access zones.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concerns include unprotected fall hazards and exposure to hazardous insulation materials, which pose significant risks to worker health and safety. Immediate corrective actions are recommended to mitigate these risks.

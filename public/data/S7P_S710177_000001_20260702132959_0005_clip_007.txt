@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Structure', 'description': 'The video shows workers operating near a tall, open steel framework structure with no visible guardrails or fall protection systems installed. Workers are seen walking and working in close proximity to unguarded edges at height, creating a high risk of fatal falls. The absence of safety netting, scaffolding guardrails, or personal fall arrest systems (PFAS) is a critical violation of occupational safety standards.'}
+
+{'severity': 'High', 'name': 'Inadequate Barricading and Warning Systems', 'description': 'Although yellow caution tape is present, it appears loosely placed and insufficient to prevent unauthorized access to hazardous areas. The area around the construction zone lacks robust barriers or signage that clearly demarcate dangerous zones. This increases the risk of accidental entry by personnel or equipment into unsafe zones.'}
+
+{'severity': 'Medium', 'name': 'Improper Use of Personal Protective Equipment (PPE)', 'description': 'While most workers are wearing hard hats and high-visibility vests, some individuals appear to be using PPE improperly—such as not wearing face shields or safety goggles when required. Additionally, there is no clear indication that hearing protection is being used despite the presence of heavy machinery and potential noise hazards.'}
+
+{'severity': 'Low', 'name': 'Cluttered Work Area and Obstructed Pathways', 'description': 'Construction materials, tools, and debris are scattered across the ground, creating tripping hazards and obstructing safe movement. While not immediately life-threatening, this contributes to a disorganized site environment and may impede emergency evacuation routes or response efforts.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the lack of fall protection at height, which poses an immediate danger to workers. Other issues include inadequate barricading, inconsistent use of PPE, and cluttered walkways, all contributing to a higher risk of accidents on-site.

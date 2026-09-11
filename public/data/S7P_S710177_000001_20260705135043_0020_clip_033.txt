@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Stairway Guardrails', 'description': 'The metal stairway lacks proper guardrails on one side, creating a significant fall hazard for personnel using the stairs. The missing or incomplete railing increases the risk of accidental falls, especially in an industrial environment with elevated platforms and complex structures.'}
+
+{'severity': 'Medium', 'name': 'Corrosion and Structural Degradation', 'description': 'Visible rust and corrosion are present on multiple structural components, including railings and stair treads. This degradation compromises the integrity of the structure and may lead to sudden failure under load, posing a risk to workers who use these areas regularly.'}
+
+{'severity': 'Low', 'name': 'Poor Lighting and Visibility', 'description': 'Certain areas of the facility have inadequate lighting, particularly in shadowed zones beneath large machinery and structures. Poor visibility can increase the likelihood of tripping hazards or missteps, especially when navigating narrow walkways or stairs.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the lack of guardrails on the stairway, which poses a high risk of falls. Additional concerns include structural corrosion and insufficient lighting, contributing to overall unsafe working conditions.

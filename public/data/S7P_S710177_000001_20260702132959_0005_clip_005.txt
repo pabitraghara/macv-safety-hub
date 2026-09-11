@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Electrical Equipment and Cables', 'description': 'Multiple yellow welding machines (Kore Arc KB-03) are placed on the ground in a high-traffic area with numerous unsecured electrical cables running across the floor. This creates a tripping hazard for workers and increases the risk of cable damage, potential short circuits, or electric shock. The equipment is not properly cordoned off or stored safely.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Personal Protective Equipment (PPE) Compliance', 'description': 'One worker in the foreground is wearing an orange safety vest but is not wearing a hard hat, which is a mandatory PPE in construction zones. Another individual nearby appears to be wearing only casual clothing without proper PPE, increasing their vulnerability to head injuries, falling objects, or other site hazards.'}
+
+{'severity': 'Medium', 'name': 'Cluttered and Unsafe Work Environment', 'description': 'The work area is cluttered with loose cables, tools, and equipment scattered across the ground. This disorganization poses significant trip and fall risks, especially in areas where workers are walking or operating machinery. Proper housekeeping and material storage practices are not being followed.'}
+
+{'severity': 'Low', 'name': 'Improper Signage Placement', 'description': "Although a 'SAFE ZONE-5' sign is visible, it is partially obstructed by equipment and personnel, reducing its visibility and effectiveness. Additionally, there is no clear indication of restricted access or hazard warnings near the welding units, despite the presence of live electrical equipment."}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a construction site with multiple safety concerns. While some workers are wearing appropriate safety gear, others lack essential PPE such as hard hats. Electrical equipment and cables are improperly managed, creating tripping and electrical hazards. The general site condition is disorganized, with materials and tools left unsecured. Although safety signage is present, its placement and visibility are suboptimal. These conditions collectively increase the risk of accidents and suggest a need for improved safety protocols and enforcement.

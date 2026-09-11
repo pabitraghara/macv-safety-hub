@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Scaffolding', 'description': 'Workers are seen operating near and on scaffolding without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. The scaffolding appears to be at a significant height, increasing the risk of fatal falls if a worker loses balance or slips.'}
+
+{'severity': 'High', 'name': 'Improper Use of Personal Protective Equipment (PPE)', 'description': 'While most workers are wearing high-visibility vests and hard hats, some individuals appear to have their hard hats improperly worn (e.g., not secured under the chin), reducing effectiveness during potential impact events. Additionally, one worker is seen with a blue cap underneath the hard hat, which may compromise its protective function.'}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Area and Tripping Hazards', 'description': 'The ground around the work area is cluttered with loose materials, including pipes, wooden planks, and tools scattered across the site. This creates tripping hazards for personnel moving through the area, especially in low-light or wet conditions.'}
+
+{'severity': 'Low', 'name': 'Inadequate Site Supervision', 'description': 'Although supervisors or team leaders are present, there is no clear indication of active monitoring or enforcement of safety protocols. Workers are engaged in tasks without direct oversight, which could lead to lapses in safety practices over time.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a construction site with multiple workers actively involved in various tasks. While basic PPE is generally used, critical safety violations such as lack of fall protection on elevated scaffolding pose immediate life-threatening risks. Additional concerns include poor housekeeping and inconsistent PPE use, contributing to an overall unsafe working environment.

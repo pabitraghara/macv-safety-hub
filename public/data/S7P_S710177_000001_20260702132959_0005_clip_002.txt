@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Electrical Cables on Ground', 'description': 'Electrical cables are visible lying across the ground in the work area, creating a tripping hazard for personnel. These cables are not properly secured or routed, increasing the risk of accidental disconnection or damage, which could lead to electrical hazards or equipment failure.'}
+
+{'severity': 'Medium', 'name': 'Lack of Proper Signage and Barriers at Work Zone', 'description': 'The construction area shows scattered materials and tools without clear demarcation or barriers. While some signage is present, it appears insufficient to fully warn personnel of potential hazards such as uneven surfaces or active work zones, increasing the risk of accidents.'}
+
+{'severity': 'Low', 'name': 'Inadequate Personal Protective Equipment (PPE) Compliance', 'description': 'Although most workers are wearing hard hats, one worker in an orange vest is not wearing visible safety goggles or gloves while handling tools and equipment. This indicates partial non-compliance with PPE standards, especially in areas where eye or hand protection may be required.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a construction site with ongoing activities involving structural steelwork and building assembly. While general safety practices such as hard hat usage are observed, several safety risks are evident. The presence of loose cables, unorganized materials, and incomplete PPE compliance highlights potential hazards that could result in slips, trips, falls, or exposure to electrical or mechanical dangers if not addressed promptly.

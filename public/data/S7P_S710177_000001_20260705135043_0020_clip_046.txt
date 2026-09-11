@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The staircase lacks proper guardrails on one side, exposing workers to a significant fall risk. The open edge without adequate fall protection increases the likelihood of accidental falls from height, especially in an industrial environment with multiple levels and moving equipment.'}
+
+{'severity': 'High', 'name': 'Degraded Stair Treads', 'description': 'Several stair treads show signs of rust, wear, and possible deformation, which could lead to slips, trips, or missteps. This condition compromises the structural integrity and safety of the staircase, particularly under heavy use or in wet conditions.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Handrail Maintenance', 'description': 'The handrails appear corroded and loosely attached in some areas, reducing their effectiveness in providing support. A compromised handrail may fail during use, increasing the risk of falls, especially when navigating steep stairs.'}
+
+{'severity': 'Low', 'name': 'Poor Visibility Due to Clutter', 'description': 'There are visible obstructions and clutter near the base and sides of the staircase, including pipes and metal structures, which can impede clear access and increase tripping hazards. While not immediately life-threatening, this contributes to overall unsafe navigation.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities.

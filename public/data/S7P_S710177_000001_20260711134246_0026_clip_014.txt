@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Guardrails and Structural Integrity Concerns', 'description': 'The video shows multiple sections of yellow guardrails that appear to be loose, bent, or improperly installed. In several frames, the railings are visibly misaligned or disconnected from their mounting points, creating a potential fall hazard for personnel working on elevated platforms. This compromises the structural integrity of the safety barriers and increases the risk of accidental falls.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Access Control to Elevated Areas', 'description': 'There is no visible signage or physical barrier preventing unauthorized access to elevated walkways and platforms. The open design and lack of controlled entry points suggest that individuals without proper training or PPE could inadvertently enter high-risk zones, increasing the likelihood of accidents.'}
+
+{'severity': 'Low', 'name': 'Poor Visibility Due to Cluttered Equipment Layout', 'description': 'The area contains numerous metal cages and equipment stacked closely together, which may obstruct visibility and safe navigation. While not immediately dangerous, this clutter can contribute to tripping hazards and reduce situational awareness, especially in emergency situations.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a complex industrial environment with elevated walkways, guardrails, and storage cages. While the overall structure appears functional, several safety concerns are evident, including compromised guardrail integrity, uncontrolled access to elevated areas, and poor spatial organization. These issues collectively increase the risk of workplace incidents, particularly falls and collisions.

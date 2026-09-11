@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Construction Site Perimeter', 'description': 'The construction site perimeter appears to lack adequate barriers or fencing in certain areas, increasing the risk of unauthorized access and potential accidents. Open zones near heavy equipment and structural elements pose a hazard to both workers and visitors.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Personal Protective Equipment (PPE) Usage', 'description': 'While some workers are wearing hard hats, not all personnel visible in the video appear to be using proper PPE such as high-visibility vests, safety goggles, or gloves. This increases exposure to risks like falling debris, eye injuries, and other site hazards.'}
+
+{'severity': 'Low', 'name': 'Poor Housekeeping and Cluttered Work Area', 'description': 'There is visible clutter and scattered materials on the ground, including tools and cables, which could lead to tripping hazards for personnel moving through the site. Maintaining a clean and organized work environment is essential for preventing slips, trips, and falls.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a large-scale industrial construction site with significant structural steelwork and temporary facilities. While the overall structure appears stable, several safety concerns are evident. The site lacks sufficient perimeter control, and inconsistent use of PPE among workers raises safety compliance issues. Additionally, the presence of loose materials on the ground contributes to a potentially hazardous working environment. These observations suggest a need for improved safety protocols and regular site inspections.

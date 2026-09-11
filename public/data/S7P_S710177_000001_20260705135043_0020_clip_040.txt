@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker positioned on an elevated metal platform with open edges and no visible guardrails or fall protection systems in place. The platform is located at a significant height above ground level, with a large drop to the lower area below. This creates a severe risk of falls, which could result in serious injury or fatality. Proper fall protection, such as guardrails, safety nets, or personal fall arrest systems, must be installed and used when working at heights.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail System', 'description': 'The metal walkway and platforms feature incomplete or improperly installed guardrails. Some sections lack top rails or mid-rails, and the structural integrity of the railing appears compromised. This increases the risk of accidental falls, especially during movement or equipment handling. Guardrails should meet OSHA or equivalent standards for height, strength, and continuity.'}
+
+{'severity': 'Medium', 'name': 'Unsecured Materials on Platform', 'description': 'Several metal rods or pipes are stacked loosely on the edge of the platform near the railing. These materials pose a tripping hazard and could fall into the lower area, creating a danger to personnel below. Proper material storage and securing practices should be enforced to prevent both trip hazards and falling objects.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Safety Signage', 'description': 'There are no visible warning signs or safety instructions posted in the immediate vicinity of the platform. While not immediately life-threatening, the absence of signage reduces awareness of potential hazards and fails to reinforce safe work practices. Appropriate signage should be installed to inform workers of fall risks and required PPE.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical issue is the presence of unprotected elevated work areas without fall protection, posing a direct threat to worker safety. Additional concerns include inadequate railings, unsecured materials, and missing safety signage, all contributing to an overall unsafe working environment.

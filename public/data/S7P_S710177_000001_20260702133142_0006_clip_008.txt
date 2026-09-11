@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unsecured Structural Components', 'description': 'The video reveals a large industrial structure with exposed steel frameworks and scaffolding that appear to be in an incomplete or under-construction state. Several sections of the framework lack proper bracing, guardrails, or fall protection systems, posing a significant risk of collapse or falling debris. This condition could lead to severe injury or fatality if structural failure occurs during operations.'}
+
+{'severity': 'High', 'name': 'Lack of Fall Protection at Elevated Work Areas', 'description': 'Multiple elevated platforms and walkways within the structure are visible, but there is no evidence of installed guardrails, safety nets, or personal fall arrest systems. Workers operating in these areas would be at high risk of falling from height without adequate protection, especially given the complex network of beams and open spaces.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Obstructed Pathways', 'description': 'There are piles of loose gravel, debris, and materials scattered across the ground level, creating tripping hazards and obstructing emergency egress routes. This disorganization increases the risk of slips, trips, and falls, particularly for personnel moving through the site.'}
+
+{'severity': 'Low', 'name': 'Inadequate Visibility and Signage', 'description': "While some signage (e.g., 'TAC TANK') is present, it is limited and not clearly visible throughout the site. Critical safety warnings, directional signs, or hazard indicators are missing in key areas, which may hinder safe navigation and awareness of potential risks."}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including structural instability, lack of fall protection, poor housekeeping, and inadequate signage. Immediate corrective actions are required to mitigate critical and high-risk hazards.

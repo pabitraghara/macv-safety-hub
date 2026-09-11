@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Structural Components', 'description': 'The large steel framework structure appears to be in an incomplete state with exposed beams and open sections. There are no visible guardrails or protective barriers around the elevated platforms, posing a significant fall hazard for workers operating at height.'}
+
+{'severity': 'Medium', 'name': 'Poor Ground Surface Conditions', 'description': 'The ground is uneven, covered with loose gravel, debris, and scattered metal sheets. This creates tripping hazards and increases the risk of slips, falls, or equipment damage for personnel moving through the area.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Site Organization', 'description': 'Construction materials, tools, and equipment such as gas cylinders and wooden planks are left unsecured and improperly stored near walkways. This contributes to cluttered work zones and potential obstruction of emergency exits or safe access routes.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible PPE Compliance', 'description': 'While some individuals appear to be wearing safety vests, it is unclear if all personnel are consistently using required personal protective equipment (PPE) such as hard hats, safety glasses, or gloves. This may indicate inconsistent adherence to safety protocols.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concerns include structural fall hazards, poor ground conditions, disorganized site layout, and potential PPE non-compliance. Immediate corrective actions should focus on securing high-risk zones, improving housekeeping, and reinforcing PPE usage.

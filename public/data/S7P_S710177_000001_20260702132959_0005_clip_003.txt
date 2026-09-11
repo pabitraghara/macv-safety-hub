@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Electrical Cables on Floor', 'description': 'Multiple electrical cables are lying loosely on the ground, creating a tripping hazard for workers. These cables are not properly secured or routed, increasing the risk of accidental disconnection, electrical faults, or injuries due to slips and falls.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Signage and Barriers', 'description': "While some safety signs are visible, such as 'Safe Zone' and 'No Entry', they appear insufficiently placed or not clearly marked in high-traffic areas. This may lead to confusion among workers about restricted zones, potentially resulting in unauthorized access to hazardous areas."}
+
+{'severity': 'Low', 'name': 'Improper Storage of Tools and Equipment', 'description': 'Tools and equipment, including gas cylinders and hand tools, are scattered around the site without proper storage. This can lead to cluttered workspaces, increased risk of damage to equipment, and potential accidents from falling objects or obstructed movement.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a construction site with ongoing structural work involving large steel frameworks. Workers are wearing personal protective equipment (PPE), including hard hats and high-visibility vests, which is commendable. However, several safety risks are present: unsecured electrical cables pose significant tripping hazards; signage appears inadequate for full site coverage; and tools and materials are improperly stored. While no immediate life-threatening conditions are observed, these issues could escalate into serious incidents if not addressed promptly.

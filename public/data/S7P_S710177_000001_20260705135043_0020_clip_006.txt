@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'Multiple elevated walkways and platforms are visible with no guardrails or fall protection systems in place. Workers operating at height are exposed to significant fall risks, especially near open edges and staircases without proper handrails or barriers.'}
+
+{'severity': 'High', 'name': 'Inadequate Fall Protection Equipment', 'description': 'A worker wearing a hard hat is seen ascending stairs without a visible safety harness or lanyard. This indicates a lack of personal fall arrest systems (PFAS) required for working at heights, increasing the risk of serious injury or fatality in case of a fall.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Obstructed Pathways', 'description': 'The area shows cluttered walkways and scattered materials, which can lead to tripping hazards and impede emergency evacuation. The presence of loose cables and equipment on platforms further increases the risk of accidents.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Safety Signage', 'description': 'There are no visible warning signs or safety instructions posted in the area, which may result in workers being unaware of specific hazards such as falling objects or restricted zones.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical issues include unprotected fall hazards and inadequate fall protection equipment. High-risk elements involve unsafe work practices at height. Medium-level concerns include poor housekeeping and obstructed pathways. Low-level issues relate to insufficient safety signage. Immediate corrective actions are required to mitigate these risks.

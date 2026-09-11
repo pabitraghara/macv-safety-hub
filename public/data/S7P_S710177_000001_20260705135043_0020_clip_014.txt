@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection', 'description': 'The staircase features missing or improperly installed guardrails on certain sections, particularly at the landing and mid-level platforms. This creates a fall hazard for personnel using the stairs, especially in an industrial environment with elevated structures.'}
+
+{'severity': 'Medium', 'name': 'Obstructed Stairway Path', 'description': 'Debris, including metal rods and construction materials, are visible on the stair treads and landings, creating tripping hazards. These obstructions could lead to slips, stumbles, or falls during use of the staircase.'}
+
+{'severity': 'Medium', 'name': 'Poor Lighting Conditions', 'description': 'Certain areas of the staircase are poorly lit, particularly under overhangs and near structural columns, which may impair visibility and increase the risk of missteps or collisions with equipment or railings.'}
+
+{'severity': 'Low', 'name': 'Corrosion and Rust on Structural Components', 'description': 'Visible rust and corrosion on steel railings and support beams suggest deterioration of structural integrity over time. While not immediately hazardous, this indicates lack of maintenance and potential long-term safety risks.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities.

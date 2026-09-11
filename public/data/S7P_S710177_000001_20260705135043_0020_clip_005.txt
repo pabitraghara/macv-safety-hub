@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The worker is positioned near an open edge with no visible fall protection system in place, such as guardrails, safety nets, or personal fall arrest systems. The area appears to be at a significant height above the ground level, increasing the risk of fatal injury in the event of a fall.'}
+
+{'severity': 'High', 'name': 'Improper Use of Equipment', 'description': 'A metal beam or structural component is being handled manually without proper lifting equipment or rigging. This poses a high risk of musculoskeletal injury and potential dropping of heavy materials, which could lead to serious harm to personnel below.'}
+
+{'severity': 'Medium', 'name': 'Hazardous Materials Storage', 'description': 'Blue containers are stored on a small shelf within a confined space near moving machinery and elevated platforms. These materials may be hazardous chemicals or flammable substances, and their improper storage increases the risk of spills, leaks, or fires if not secured properly.'}
+
+{'severity': 'Low', 'name': 'Poor Housekeeping', 'description': 'Cables and wires are loosely hanging and unsecured in the work area, creating tripping hazards for personnel navigating through the facility. While not immediately life-threatening, this contributes to a cluttered environment that can lead to accidents over time.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical concerns include unprotected fall hazards and manual handling of heavy materials without proper equipment. Additional risks stem from improper storage of potentially hazardous materials and poor housekeeping, which collectively create a hazardous working environment.

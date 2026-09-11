@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Guardrails on Stairways', 'description': 'The stairway shown in the video lacks proper guardrails or has incomplete handrails, increasing the risk of slips, trips, and falls for personnel ascending or descending. This is a significant safety hazard in an industrial environment where workers may be carrying tools or operating under time pressure.'}
+
+{'severity': 'Medium', 'name': 'Exposure to Unprotected Openings and Edges', 'description': 'Several areas in the structure feature open edges and platforms without adequate fall protection barriers. Workers moving through these zones are at risk of falling if they lose balance or misstep, especially given the height and complexity of the industrial layout.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility Due to Structural Obstructions', 'description': 'The camera view shows dense metal frameworks and hanging chains that obstruct visibility, potentially leading to collisions or misjudgment of distances. This can impair safe navigation and increase the likelihood of accidents in high-traffic or confined areas.'}
+
+{'severity': 'Low', 'name': 'Potential Tripping Hazards from Exposed Cables and Equipment', 'description': 'Cables and structural components are visible near walkways and platforms, which could pose tripping hazards if not properly secured or routed. While not immediately dangerous, this contributes to overall workplace risk and requires routine inspection and maintenance.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concerns involve fall hazards due to missing or inadequate guardrails, exposure to unguarded edges, and poor visibility caused by structural obstructions. These issues collectively create a hazardous working environment that demands immediate corrective actions to ensure worker safety.

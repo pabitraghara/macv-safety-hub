@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The worker is operating at height on an elevated platform with no visible fall protection system such as a harness, lanyard, or guardrails. The edge of the platform is exposed, and there is no safety net or barrier to prevent a fall. This poses a significant risk of fatal injury in the event of a slip or misstep.'}
+
+{'severity': 'High', 'name': 'Use of Mobile Device During High-Risk Work', 'description': 'The worker is holding and using a mobile phone while positioned at height near industrial structures. This distracts from situational awareness and increases the risk of losing balance or dropping the device, which could lead to accidents or equipment damage. Use of personal electronic devices during high-risk tasks is a serious safety violation.'}
+
+{'severity': 'Medium', 'name': 'Exposed Electrical Cables and Wires', 'description': 'Multiple electrical cables are visibly running across the work area, some hanging loosely without proper securing or insulation. These pose risks of tripping hazards, accidental disconnection, or electric shock if damaged or contacted during movement.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Personal Protective Equipment (PPE)', 'description': 'Although not clearly visible in all frames, there is no clear evidence of essential PPE such as a hard hat, safety glasses, or gloves being worn. In an industrial environment with potential for falling objects and exposure to debris, this omission increases the risk of minor injuries.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical concern is the lack of fall protection while working at height, compounded by distractions from mobile device use. Additional risks include exposed wiring and inadequate PPE usage, indicating a need for immediate corrective actions and safety training.

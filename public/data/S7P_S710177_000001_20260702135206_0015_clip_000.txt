@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Construction Materials', 'description': 'Stacks of green metal scaffolding components are left unsecured and scattered on the ground near the work area. These materials pose a tripping hazard and could become projectiles if disturbed by wind or equipment movement, increasing the risk of injury.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Fall Protection at Elevated Work Areas', 'description': 'Workers are seen operating near elevated platforms and structural steel frameworks without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. This exposes them to potential fall hazards from heights, especially given the presence of open edges and vertical structures.'}
+
+{'severity': 'Medium', 'name': 'Lack of Visible Safety Barriers Around Hazardous Zones', 'description': 'Despite the presence of heavy machinery and ongoing construction activities, there are no clearly marked or barricaded zones around high-risk areas such as excavation sites or crane operation paths. This increases the risk of unauthorized access and accidental incidents.'}
+
+{'severity': 'Low', 'name': 'Improper Storage of Pipes and Equipment', 'description': 'Large pipes and construction materials are stored haphazardly across the site, potentially obstructing emergency exits and creating cluttered walkways. This can impede evacuation during emergencies and increase the likelihood of trips or falls.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concerns include unsecured materials, lack of fall protection, and inadequate site organization, which collectively contribute to an increased risk of accidents in this industrial environment.

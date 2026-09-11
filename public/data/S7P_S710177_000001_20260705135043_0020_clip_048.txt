@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The worker is operating on an elevated metal platform with no visible fall protection system in place, such as a harness or guardrails. The platform appears to be at significant height, and the surrounding structure has open edges without proper safety barriers, creating a high risk of fatal falls.'}
+
+{'severity': 'High', 'name': 'Rusted and Corroded Structural Components', 'description': 'Multiple structural elements, including railings and support beams, show significant rust and corrosion. This degradation compromises the integrity of the scaffolding and platforms, increasing the risk of collapse or failure under load.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Guardrails and Open Platforms', 'description': 'Several areas of the walkway lack complete guardrails, leaving open sides exposed. This increases the risk of accidental slips or trips, especially when carrying equipment or moving in confined spaces.'}
+
+{'severity': 'Low', 'name': 'Use of Mobile Device in Hazardous Environment', 'description': 'A mobile phone is being used while working on an elevated platform, which could distract the operator and lead to loss of balance or improper handling of tools. While not immediately dangerous, it reflects poor adherence to safe work practices.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, with the most critical issue being the absence of fall protection on an elevated platform. Structural deterioration and inadequate guarding further compound the risks present in this industrial environment.

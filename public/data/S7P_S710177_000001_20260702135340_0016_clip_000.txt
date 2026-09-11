@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Elevated Work Area', 'description': 'Workers are operating near an elevated metal framework and scaffolding without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. The green scaffolding appears to be incomplete or improperly secured, creating a significant risk of falls from height, especially given the presence of open edges and unstable platforms.'}
+
+{'severity': 'High', 'name': 'Inadequate Scaffolding Guardrails', 'description': 'The scaffolding in use lacks proper guardrails on all sides, particularly on the outer edges where workers are standing. This increases the risk of accidental falls, especially when handling materials or moving around the structure. OSHA and international safety standards require full-height guardrails for all elevated platforms.'}
+
+{'severity': 'Medium', 'name': 'Improper Use of Safety Equipment', 'description': 'While most workers are wearing hard hats and high-visibility vests, some individuals appear to be using their safety gear incorrectly (e.g., loose-fitting vests, unsecured helmets). Additionally, there is no visible use of face masks or eye protection, which could be required depending on the work being performed (e.g., welding, cutting, or dust exposure).'}
+
+{'severity': 'Low', 'name': 'Cluttered Worksite with Tripping Hazards', 'description': 'Various tools, cables, and construction materials are scattered across the ground near the scaffolding and walkways, creating potential tripping hazards. While not immediately life-threatening, this disorganization can lead to slips, falls, or equipment damage if not addressed promptly.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concerns involve fall hazards due to unprotected edges and inadequate scaffolding safety measures. Workers are present in high-risk zones without sufficient personal protective equipment or structural safeguards, indicating a significant gap in site safety compliance.

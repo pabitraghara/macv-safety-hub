@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker navigating a metal walkway with missing or damaged guardrails, particularly around the edges of elevated platforms. The absence of proper fall protection systems increases the risk of serious injury or fatality in the event of a slip or misstep. This is a critical violation of OSHA fall protection standards (29 CFR 1926.501).'}
+
+{'severity': 'High', 'name': 'Structural Corrosion and Deterioration', 'description': 'Significant rust and corrosion are visible on structural steel components, including railings and support beams. This deterioration compromises the integrity of the platform and could lead to sudden collapse or failure under load, posing a high risk to personnel working in the area.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Debris Accumulation', 'description': 'Snow and debris are accumulated on walkways and platforms, creating slippery surfaces and tripping hazards. This condition impedes safe movement and increases the likelihood of slips, trips, and falls, especially in cold or wet environments.'}
+
+{'severity': 'Low', 'name': 'Inadequate Lighting', 'description': 'Certain areas of the facility appear dimly lit, which may impair visibility for workers performing tasks. While not immediately life-threatening, poor lighting can contribute to errors, reduced situational awareness, and increased risk of accidents.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concerns involve unprotected fall hazards and structural degradation, both of which pose immediate dangers to personnel. Additional issues such as poor housekeeping and lighting further compromise overall workplace safety.

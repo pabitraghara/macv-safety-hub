@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Elevated Platform', 'description': 'The video shows a worker standing on an elevated metal platform with no visible guardrails or fall protection systems in place. The platform is located at a significant height above ground level, and the lack of edge protection poses a severe risk of falls. This is a critical safety violation as it directly violates OSHA standards for fall protection in industrial environments.'}
+
+{'severity': 'High', 'name': 'Improper Storage of Materials on Walkway', 'description': 'Several rolled metal pipes are left lying on the grated walkway, obstructing safe passage and creating a tripping hazard. These materials are not secured and could shift during movement, increasing the risk of slips, trips, or falls. Proper storage and housekeeping practices should be enforced to prevent such hazards.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Structural Integrity of Staircase', 'description': 'The staircase appears to have rusted and worn components, with some steps showing signs of corrosion and potential instability. This raises concerns about structural integrity and could lead to collapse or misstep-related injuries. Regular inspection and maintenance of access routes are necessary to ensure safe use.'}
+
+{'severity': 'Low', 'name': 'Lack of Personal Protective Equipment (PPE) Visibility', 'description': 'While the worker is wearing a high-visibility vest, it is unclear whether they are using additional required PPE such as hard hats, safety glasses, or gloves. Although not immediately apparent from the footage, the absence of full PPE could contribute to increased exposure to workplace risks.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the lack of fall protection at the elevated platform, which presents a critical hazard. Additional issues include unsafe material storage, deteriorating infrastructure, and potential gaps in personal protective equipment usage.

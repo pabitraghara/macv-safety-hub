@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Stairway Landing', 'description': 'The metal stairway and landing platform lack proper guardrails on the open side, creating a significant fall hazard. Workers accessing this area are exposed to the risk of falling from height due to the absence of fall protection barriers. This is a critical safety violation in industrial environments where elevated platforms are common.'}
+
+{'severity': 'High', 'name': 'Rusty and Corroded Structural Components', 'description': 'Multiple structural elements, including railings, stairs, and support beams, show visible signs of rust and corrosion. This degradation compromises the integrity of the structure and increases the risk of collapse or failure under load, especially in high-traffic areas. Immediate inspection and maintenance are required.'}
+
+{'severity': 'Medium', 'name': 'Obstructed Walkway with Debris', 'description': 'A wooden plank and other debris are left on the metal grating platform, posing a tripping hazard for personnel moving through the area. The clutter also interferes with safe access and could lead to slips or falls, particularly in an industrial setting with heavy foot traffic.'}
+
+{'severity': 'Low', 'name': 'Poorly Maintained Equipment Enclosures', 'description': 'The large blue and brown equipment enclosures appear weathered and have loose panels or gaps that may allow dust, moisture, or foreign objects to enter. While not immediately hazardous, this indicates a lack of routine maintenance and could contribute to long-term operational failures or electrical hazards.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the unprotected edge at the stairway landing, which presents a critical fall hazard. Additional risks include structural deterioration, trip hazards from debris, and poorly maintained equipment enclosures. These issues collectively indicate a need for immediate corrective actions to ensure worker safety and compliance with occupational health standards.

@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'A worker is seen operating at height near an unguarded edge without visible fall protection equipment such as a safety harness or guardrails. The worker is positioned close to scaffolding and metal rods, which increases the risk of falling. This is a critical violation of fall protection standards, especially in high-risk construction environments.'}
+
+{'severity': 'High', 'name': 'Improper Use of Personal Protective Equipment (PPE)', 'description': 'The camera view shows fingers obstructing the lens, suggesting that the worker may not be wearing proper head protection or has improperly adjusted their helmet or camera. This could indicate non-compliance with PPE requirements, potentially compromising visibility and safety during work operations.'}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Area', 'description': 'Metal rods and construction materials are scattered on the ground near the work zone, creating tripping hazards and potential for material handling accidents. Proper organization and storage of tools and materials are essential to maintain a safe working environment.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage or Barriers', 'description': 'There are no visible warning signs or barriers indicating restricted areas or hazards near the scaffolding and open edges. While not immediately life-threatening, this lack of communication can contribute to confusion and increase the risk of accidental entry into dangerous zones.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including unprotected heights, improper PPE use, cluttered workspaces, and inadequate signage. These issues collectively pose significant risks to worker safety and require immediate corrective actions.

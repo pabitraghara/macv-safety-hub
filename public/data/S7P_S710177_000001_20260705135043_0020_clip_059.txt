@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'A worker is seen standing on an elevated platform near an open edge without any visible fall protection such as a harness, lanyard, or guardrails. The worker is positioned close to a significant drop, and the lack of fall prevention equipment poses an immediate risk of serious injury or fatality in the event of a slip or misstep.'}
+
+{'severity': 'High', 'name': 'Improper Use of Personal Protective Equipment (PPE)', 'description': 'The worker is wearing a hard hat but appears to have their face partially covered with a cloth or mask that may obstruct vision or interfere with communication. This could compromise situational awareness and response time during emergencies, increasing the risk of accidents.'}
+
+{'severity': 'Medium', 'name': 'Lack of Guardrails on Elevated Platforms', 'description': 'The metal staircase and surrounding platforms do not appear to have adequate guardrails or safety barriers, especially at the edges where workers are operating. This increases the risk of accidental falls, particularly when handling materials or moving through the area.'}
+
+{'severity': 'Low', 'name': 'Potential Trip Hazard from Cables and Structural Elements', 'description': 'Numerous cables and structural components are visible in the foreground and along walkways, which could pose trip hazards for personnel moving through the area. While not immediately dangerous, these obstructions can lead to minor injuries or distractions that contribute to larger incidents.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical concern is the absence of fall protection for a worker at height, which presents a high-risk scenario. Additional issues include inadequate PPE usage, missing guardrails, and potential trip hazards due to cluttered walkways. Immediate corrective actions are required to mitigate these risks and ensure compliance with occupational safety standards.

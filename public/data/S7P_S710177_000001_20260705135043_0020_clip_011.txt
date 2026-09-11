@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Fall Protection on Elevated Platforms', 'description': 'The video shows multiple elevated walkways and platforms with open edges that lack proper guardrails or fall protection systems. Workers accessing these areas are at significant risk of falling, especially given the height and industrial environment. The absence of safety netting or railings increases the likelihood of serious injury or fatality in the event of a slip or misstep.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility Due to Obstructed View', 'description': 'The camera view is frequently obstructed by structural elements such as beams, pipes, and safety nets, which can hinder situational awareness. This obstruction could impede emergency response efforts or prevent workers from identifying hazards in their immediate vicinity, increasing the risk of accidents.'}
+
+{'severity': 'Medium', 'name': 'Lack of Clear Signage and Safety Markings', 'description': 'There is no visible signage indicating hazard zones, evacuation routes, or equipment operation warnings. In an industrial setting with complex structures and moving parts, the absence of clear directional or warning signs poses a risk to worker orientation and safety during normal operations or emergencies.'}
+
+{'severity': 'Low', 'name': 'Worn or Rusty Structural Components', 'description': 'Some metal beams, staircases, and railings appear corroded or rusted, suggesting potential structural degradation over time. While not immediately hazardous, continued deterioration could compromise integrity, leading to collapse or failure under load if not inspected and maintained regularly.'}
+
+
+DESCRIPTION
+==================================================
+
+The video captures a complex industrial facility with numerous elevated platforms, staircases, and structural components. While no active personnel are visible, several safety risks are evident, including missing fall protection, obstructed views, and deteriorating infrastructure. These conditions suggest a need for comprehensive safety audits and maintenance protocols to mitigate risks in this high-risk environment.

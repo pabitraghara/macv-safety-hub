@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker moving along an elevated walkway with open grating and yellow guardrails. However, the guardrails appear to be missing or improperly installed in several sections, particularly at corners and transitions, creating unprotected edges. This poses a significant fall risk for personnel working at height, especially given the substantial drop below. The lack of continuous fall protection is a critical safety violation.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Integrity', 'description': 'The yellow guardrails, while present in many areas, show signs of damage, misalignment, and incomplete installation. Some railings are bent or detached, reducing their effectiveness in preventing falls. Additionally, gaps between railings and platforms exceed safe tolerances, increasing the risk of tripping or falling through openings.'}
+
+{'severity': 'Medium', 'name': 'Poor Lighting and Visibility', 'description': 'Certain areas of the walkway are poorly lit, particularly under overhangs and near equipment structures. This creates shadowed zones where workers may not clearly see obstacles, uneven surfaces, or changes in elevation, increasing the risk of trips, slips, or missteps.'}
+
+{'severity': 'Low', 'name': 'Cluttered Walkway and Obstructions', 'description': 'There are visible debris, tools, and materials scattered on the walkway surface in some areas. While not immediately hazardous, these obstructions can contribute to trip hazards and impede emergency evacuation routes, requiring routine housekeeping improvements.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concerns involve fall hazards due to missing or damaged guardrails and inadequate edge protection on elevated platforms. Additional issues include poor lighting and minor clutter, which compound the overall risk environment.

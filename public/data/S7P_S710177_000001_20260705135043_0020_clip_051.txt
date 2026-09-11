@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Structure', 'description': 'The video shows a worker navigating a complex metal framework at height, with no visible fall protection equipment such as harnesses, lanyards, or guardrails. The structure features open grating and exposed edges without any protective barriers, creating a significant risk of falling. This is especially dangerous given the height and industrial environment, where a fall could result in severe injury or fatality.'}
+
+{'severity': 'High', 'name': 'Lack of Personal Protective Equipment (PPE)', 'description': 'No visible use of essential PPE such as hard hats, safety goggles, gloves, or high-visibility clothing. In an industrial setting with overhead structures, potential for falling objects, and moving equipment, the absence of PPE increases the risk of head, eye, and hand injuries.'}
+
+{'severity': 'Medium', 'name': 'Improper Use of Mobile Device During Work at Height', 'description': 'A mobile phone is being used while working on elevated platforms. This indicates a distraction that can impair situational awareness and coordination, increasing the likelihood of missteps or loss of balance on unstable surfaces. Using electronic devices during hazardous tasks violates standard safety protocols.'}
+
+{'severity': 'Low', 'name': 'Structural Debris and Obstructions', 'description': 'There are visible debris and materials (e.g., cloth or insulation) resting on structural beams. While not immediately hazardous, this clutter may pose tripping hazards or interfere with safe movement and maintenance access, potentially leading to accidents if not properly managed.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical issue is the lack of fall protection when working at height, which poses an immediate danger. Additional concerns include inadequate PPE usage, distracted behavior due to mobile device use, and minor environmental hazards like debris. These findings indicate a need for improved safety training, enforcement of PPE requirements, and regular inspection of work zones.

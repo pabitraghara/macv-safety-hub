@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker navigating a walkway at height with an unguarded edge. The metal grating platform lacks proper guardrails or fall protection barriers, creating a significant risk of falling from elevation. This is especially dangerous given the complex industrial environment below, which includes machinery and other equipment that could result in severe injury or fatality in the event of a fall.'}
+
+{'severity': 'High', 'name': 'Inadequate Guarding on Elevated Platforms', 'description': 'Several sections of the elevated walkways are missing or have compromised safety railings. The yellow handrails appear to be partially installed or improperly secured, leaving open gaps where personnel could slip or lose balance. This increases the likelihood of accidental falls, particularly in a high-traffic industrial area.'}
+
+{'severity': 'Medium', 'name': 'Exposure to Falling Objects', 'description': 'Overhead structures, including pipes and conduits, are located directly above walkways without adequate overhead protection such as canopy guards or netting. There is visible debris and loose materials on the upper levels, posing a risk of falling objects striking workers below.'}
+
+{'severity': 'Low', 'name': 'Poor Visibility and Lighting Conditions', 'description': 'Some areas of the walkway are poorly lit, especially under large structures and near corners, reducing visibility and increasing the risk of tripping or missteps. While not immediately life-threatening, inadequate lighting can contribute to accidents over time.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the lack of fall protection on elevated platforms, which poses a critical hazard to personnel. Additional risks include insufficient guarding, exposure to falling objects, and poor lighting, all of which require immediate attention to ensure worker safety.

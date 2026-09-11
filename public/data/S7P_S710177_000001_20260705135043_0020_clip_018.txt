@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Platform', 'description': 'The video shows a worker ascending a metal staircase within an industrial facility, with no visible fall protection measures in place. The stairs are open-sided and lack guardrails on the outer edges, creating a significant risk of falling into the open space below. Additionally, the platform at the top appears to be exposed without proper edge protection, increasing the risk of accidental falls during movement or work activities.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection on Staircase', 'description': 'The staircase features incomplete or missing handrails on certain sections, particularly on the outer side, which compromises stability and increases the risk of slips or falls. This is especially dangerous in an industrial environment where workers may carry tools or materials while navigating elevated structures.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility and Cluttered Environment', 'description': 'The surrounding area contains numerous cables, pipes, and structural components that could obstruct visibility and create tripping hazards. The cluttered layout may also impede emergency evacuation or rescue operations in case of an incident.'}
+
+{'severity': 'Low', 'name': 'Lack of Signage or Safety Warnings', 'description': 'There are no visible warning signs indicating potential hazards such as fall risks, high voltage areas, or restricted zones. Proper signage would help alert personnel to dangers and reinforce safety protocols.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the lack of fall protection on elevated platforms and staircases, which poses a critical risk to personnel. Additional issues include inadequate guardrails, poor visibility due to clutter, and absence of safety signage, all contributing to an unsafe working environment.

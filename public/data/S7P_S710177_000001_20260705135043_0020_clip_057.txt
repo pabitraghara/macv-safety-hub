@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The worker is standing on an elevated platform with no visible fall protection such as a safety harness, guardrails, or netting. The area appears to be at height with open edges, posing a significant risk of fatal falls if the worker loses balance or slips.'}
+
+{'severity': 'High', 'name': 'Inadequate Personal Protective Equipment (PPE)', 'description': 'The worker is wearing a casual yellow shirt and no hard hat, safety glasses, or gloves, which are essential in industrial environments. This lack of proper PPE increases vulnerability to head injuries, eye hazards, and hand injuries from falling objects or contact with machinery.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility Due to Camera Angle and Obstructions', 'description': 'The fisheye lens and obstructive structures (e.g., chains, pipes) limit visibility and may hinder effective monitoring of surrounding conditions, increasing the risk of undetected hazards or unsafe behaviors.'}
+
+{'severity': 'Low', 'name': 'Potential for Trip Hazards', 'description': 'Loose cables and chains are visible in the foreground, which could pose trip hazards for workers moving through the area, especially if they are not properly secured.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical concerns include unprotected work at height and lack of essential PPE, while environmental factors like obstructions and cable management contribute to secondary risks.

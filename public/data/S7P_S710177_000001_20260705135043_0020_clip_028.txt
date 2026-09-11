@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Stairway', 'description': 'The video shows a metal stairway with open grating steps and handrails, located in an industrial setting with significant height above ground. The stairway lacks proper guardrails on the open sides, especially at landings or transitions, increasing the risk of falls. Workers ascending or descending could lose balance and fall due to insufficient fall protection. This is a critical safety violation as it directly exposes personnel to life-threatening fall hazards in compliance with OSHA standards for fall protection (29 CFR 1926.501).'}
+
+{'severity': 'High', 'name': 'Missing or Inadequate Guardrails on Platforms', 'description': 'Several elevated platforms and walkways adjacent to the stairway are visible, but they lack continuous guardrails or toe boards. These structures are positioned near large tanks and piping systems, indicating potential exposure to high fall risks. The absence of proper edge protection violates safety regulations and increases the likelihood of accidental slips or trips leading to serious injury.'}
+
+{'severity': 'Medium', 'name': 'Corrosion and Structural Degradation of Metal Components', 'description': 'Visible rust and corrosion are present on the stair treads, handrails, and support beams. This degradation may compromise structural integrity over time, potentially causing sudden failure under load. While not immediately catastrophic, this condition poses a medium-level risk, especially if not addressed through regular maintenance and inspection.'}
+
+{'severity': 'Low', 'name': 'Poor Visibility Due to Complex Layout', 'description': 'The area features a dense network of pipes, beams, and equipment, which can obstruct visibility and create confusion for workers navigating the space. Although not a direct hazard, poor sightlines increase the chance of missteps or collisions, particularly in low-light conditions or during emergency evacuations.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the lack of fall protection on elevated stairways and platforms, posing a critical risk to personnel. Additional issues include structural deterioration and limited visibility, contributing to overall workplace hazards.

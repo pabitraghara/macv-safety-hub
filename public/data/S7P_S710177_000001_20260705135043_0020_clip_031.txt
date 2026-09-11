@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Platforms', 'description': 'Multiple elevated walkways and platforms are visible with open grating and minimal guardrails, creating a significant fall hazard. Workers accessing these areas without proper fall protection equipment (e.g., harnesses, lanyards) could result in fatal or severe injuries. The lack of adequate edge protection on several levels increases the risk of accidental falls.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrails on Stairways and Platforms', 'description': 'Staircases and access points within the structure feature incomplete or missing guardrails, especially at turns and landings. This poses a high risk for slips, trips, and falls, particularly in an industrial environment where workers may be carrying tools or materials.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility and Cluttered Walkways', 'description': 'The area contains numerous overhead pipes, structural beams, and cables that obstruct visibility and create tripping hazards. Additionally, debris and unsecured materials are visible on some platforms, which can lead to slips, trips, or being struck by falling objects.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage and Safety Markings', 'description': 'There is no visible signage indicating emergency exits, hazardous zones, or safety instructions. While not immediately life-threatening, this absence reduces situational awareness and may hinder quick response during emergencies.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the exposure to fall hazards due to unprotected edges and insufficient guardrails on multiple levels. Additional risks include cluttered walkways, poor visibility, and lack of safety signage, all contributing to a potentially dangerous working environment.

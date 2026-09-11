@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unsecured Access to Hazardous Area', 'description': 'The staircase and platform area are partially blocked with caution tape, but the access point remains open and unguarded, allowing potential unauthorized entry into a high-risk industrial zone. The lack of a physical barrier or locked gate increases the risk of accidental falls or exposure to moving machinery.'}
+
+{'severity': 'High', 'name': 'Degraded Safety Railings and Structural Integrity', 'description': 'The metal railings exhibit signs of rust, corrosion, and structural wear, particularly around joints and support points. This compromises their ability to provide adequate fall protection and may lead to failure under load, posing a serious risk to personnel using the walkway.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Warning Signage', 'description': "While caution tape is present, it is loosely tied and not clearly visible in all areas. There is no standardized warning signage indicating the nature of the hazard (e.g., 'Under Maintenance', 'Restricted Area'), which reduces awareness and compliance among workers."}
+
+{'severity': 'Low', 'name': 'Cluttered Walkway and Obstructed Path', 'description': 'The platform has loose cables and debris near the railing, creating tripping hazards. While not immediately life-threatening, this clutter can contribute to slips, trips, and falls, especially in a high-traffic industrial environment.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical concerns include unrestricted access to potentially dangerous zones and deteriorating guardrails. High-risk issues involve compromised structural integrity, while medium and low-level risks relate to insufficient signage and minor environmental clutter.

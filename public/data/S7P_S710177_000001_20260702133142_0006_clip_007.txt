@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Structures', 'description': 'The video shows extensive scaffolding structures surrounding a tall industrial chimney. Workers are likely operating at significant heights without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems (PFAS). The lack of edge protection on the scaffolding platforms presents a severe risk of falls, which can result in serious injury or fatality. This is a critical violation of occupational safety standards for working at height.'}
+
+{'severity': 'High', 'name': 'Inadequate Scaffolding Inspection and Maintenance', 'description': 'The scaffolding appears to be heavily weathered, with signs of rust and structural wear. Some connections and joints appear loose or improperly secured. Unmaintained scaffolding increases the risk of collapse or instability, especially under load. Regular inspection and maintenance are required to ensure structural integrity, but none are visibly evident in the footage.'}
+
+{'severity': 'Medium', 'name': 'Lack of Visible Safety Signage and Barricades', 'description': "Although there is a sign labeled 'TAC TANK#1B', there is no clear indication of hazard warnings, access restrictions, or safety instructions near the scaffolding or work areas. The absence of proper signage increases the risk of unauthorized access or unawareness of potential dangers, particularly for visitors or non-authorized personnel."}
+
+{'severity': 'Low', 'name': 'Potential for Falling Objects', 'description': 'Tools, materials, or debris may be present on the scaffolding platforms, creating a risk of falling objects that could injure workers below. While not immediately visible, the open nature of the structure and ongoing construction activity suggest this hazard exists. Proper tool tethering and material storage practices should be enforced.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the lack of fall protection on elevated scaffolding, which poses a life-threatening hazard. Additional issues include poor scaffolding condition, inadequate signage, and potential falling object risks, all of which require immediate corrective actions to ensure worker safety.

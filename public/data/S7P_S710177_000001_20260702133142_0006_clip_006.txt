@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'A worker is seen standing near an elevated structure with no visible fall protection, guardrails, or safety harness. The area appears to be at height, and the worker is positioned close to an open edge without any physical barriers, posing a significant risk of falling.'}
+
+{'severity': 'High', 'name': 'Improper Use of Personal Protective Equipment (PPE)', 'description': 'The worker is wearing a hard hat but has sunglasses resting on top of it, which may compromise visibility and protection during work. Additionally, gloves appear to be worn, but they are not clearly visible as being properly secured or appropriate for the task, increasing the risk of hand injury.'}
+
+{'severity': 'Medium', 'name': 'Lack of Clear Access Pathway', 'description': 'The ground around the TAC tanks is cluttered with debris, tools, and cables, creating a tripping hazard. This disorganized environment increases the risk of slips, trips, and falls, especially in high-traffic areas near equipment.'}
+
+{'severity': 'Low', 'name': 'Inadequate Signage Visibility', 'description': "Although warning signs such as 'LIFTING IN PROGRESS' and 'DANGER' are present, their placement may not be fully effective due to obstructions or poor positioning. This could reduce awareness among workers and visitors, potentially leading to unsafe actions."}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical concerns include unprotected fall hazards and improper PPE use, while medium and low-level risks involve cluttered workspaces and signage issues. Immediate corrective actions are recommended to mitigate these risks.

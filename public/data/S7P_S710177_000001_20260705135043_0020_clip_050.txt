@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'A worker is seen ascending a metal staircase without visible fall protection equipment, such as a harness or lanyard. The staircase lacks proper guardrails on one side, exposing the worker to a significant risk of falling from height. This constitutes a critical safety violation, especially in an industrial environment with multiple levels and open edges.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection', 'description': 'The metal staircase features missing or damaged guardrails on the outer edge, particularly at higher levels. This creates a high-risk area for falls, especially given the elevated position and industrial surroundings. Proper guardrails are essential to prevent accidental slips or missteps.'}
+
+{'severity': 'Medium', 'name': 'Poor Structural Integrity of Staircase', 'description': 'The staircase shows signs of rust and wear, with loose or corroded steps and supports. This compromises structural integrity and increases the risk of collapse or tripping hazards. Regular maintenance and inspection are required to ensure safe access.'}
+
+{'severity': 'Low', 'name': 'Cluttered Work Environment', 'description': 'There are materials and debris visible near the base and along the pathway of the staircase, which could pose tripping hazards for personnel moving through the area. While not immediately life-threatening, this contributes to overall workplace safety concerns and should be addressed for operational efficiency.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the lack of fall protection and guardrails on the staircase, which poses a direct threat to worker safety. Additional issues include structural deterioration and environmental clutter, which compound the risks in this industrial setting.

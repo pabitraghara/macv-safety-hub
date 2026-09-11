@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'A worker is seen standing on a metal staircase at an elevated level without any fall protection equipment such as a safety harness or lanyard. The staircase appears to be near an open edge with no guardrails, creating a significant risk of falling from height. This violates OSHA and other occupational safety standards requiring fall protection when working at heights above 10 feet.'}
+
+{'severity': 'High', 'name': 'Inadequate Personal Protective Equipment (PPE)', 'description': 'Although the worker is wearing a hard hat, there is no visible use of other essential PPE such as safety goggles, gloves, or high-visibility clothing. Given the industrial environment with potential for flying debris, chemical exposure, or machinery hazards, this lack of comprehensive PPE increases the risk of injury.'}
+
+{'severity': 'Medium', 'name': 'Use of Mobile Phone During Work', 'description': 'The worker is observed using a mobile phone while standing on a staircase in an industrial setting. This distracts attention from surroundings and can lead to accidents, especially in areas with moving equipment or elevated platforms. It also indicates a lack of adherence to workplace communication protocols.'}
+
+{'severity': 'Low', 'name': 'Potential Tripping Hazard', 'description': 'There are visible cables and structural elements near the staircase that could pose tripping risks if not properly secured or marked. While not immediately dangerous, these obstructions may contribute to slips or falls, particularly in busy or poorly lit areas.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical issue is the lack of fall protection for a worker at height, which poses a life-threatening risk. Additional concerns include insufficient PPE usage, distracted behavior due to phone use, and potential tripping hazards in the work area.

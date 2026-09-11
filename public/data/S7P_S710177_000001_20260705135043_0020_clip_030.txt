@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unsecured Access to High-Pressure or Hazardous Equipment', 'description': 'The video shows a large industrial vessel with open access points and exposed internal components, including piping and mechanical systems. The lack of visible barriers, warning signs, or lockout-tagout procedures suggests that personnel may have uncontrolled access to high-risk areas, increasing the likelihood of accidental contact with moving parts or pressurized systems.'}
+
+{'severity': 'High', 'name': 'Inadequate Fall Protection on Elevated Platforms', 'description': 'The camera is positioned on a metal grated platform at height, surrounded by railings. However, the railings appear worn and possibly compromised in some areas, with gaps or missing sections. Workers operating on this platform without proper fall arrest systems are at significant risk of falling, especially if the guardrails fail or are bypassed.'}
+
+{'severity': 'Medium', 'name': 'Poor Maintenance and Corrosion on Structural Components', 'description': 'Visible rust and corrosion on the steel framework, piping, and support structures indicate inadequate maintenance. This deterioration can compromise structural integrity over time, potentially leading to collapses or equipment failures, particularly under stress or extreme conditions.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Safety Signage', 'description': 'There are no visible safety warnings, hazard labels, or directional signs near the equipment or access points. This absence of communication could lead to confusion or missteps by personnel unfamiliar with the area, increasing the risk of accidents.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities.

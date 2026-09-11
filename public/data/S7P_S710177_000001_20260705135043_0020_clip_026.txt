@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Guardrails on Stairways', 'description': 'The stairway in the video lacks proper guardrails on multiple sides, particularly on open edges. This poses a significant fall hazard for personnel using the stairs, especially in an industrial environment with elevated platforms and complex structures. The absence of protective barriers increases the risk of accidental falls.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility Due to Structural Complexity', 'description': 'The dense network of steel beams, walkways, and scaffolding creates a visually cluttered environment that may impair situational awareness. Workers navigating this area could easily misstep or collide with structural components, increasing the risk of injury due to poor visibility and spatial disorientation.'}
+
+{'severity': 'Low', 'name': 'Unsecured Equipment or Materials', 'description': 'Various tools, cables, and materials are visible on platforms and walkways, some of which appear loosely placed. While not immediately dangerous, these items could become tripping hazards or shift unexpectedly, leading to minor accidents or equipment damage.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a complex industrial structure with multiple levels, stairways, and metal frameworks. Safety concerns include missing guardrails on staircases, limited visibility due to overlapping structures, and potential trip hazards from unsecured materials. While no workers are seen performing tasks, the environment presents clear risks related to fall protection and navigation safety.

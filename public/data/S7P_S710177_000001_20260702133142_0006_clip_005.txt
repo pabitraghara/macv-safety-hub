@@ -1,0 +1,20 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Elevated Work Areas', 'description': 'Workers are observed operating near elevated platforms and scaffolding without visible fall protection systems such as harnesses, guardrails, or safety nets. The absence of edge protection increases the risk of fatal falls, especially in areas with open sides and significant height differences.'}
+
+{'severity': 'High', 'name': 'Improper Storage of Heavy Equipment and Materials', 'description': 'Metal frames and structural components are scattered across the ground without proper stacking or securing, creating tripping hazards and potential for collapse during movement or crane operations. This poses a high risk of injury from falling objects or equipment tipping over.'}
+
+{'severity': 'High', 'name': 'Inadequate Barricading and Signage', 'description': 'Although red-and-white caution tape is present, it appears loosely placed and does not fully enclose hazardous zones. There is a lack of clear signage indicating restricted access, overhead crane operations, or specific dangers, increasing the likelihood of unauthorized entry into dangerous areas.'}
+
+{'severity': 'Medium', 'name': 'Exposure to Moving Machinery and Overhead Cranes', 'description': "Workers are seen in proximity to active crane operations and heavy machinery without sufficient safe distances or designated walkways. The presence of 'SAFETY FIRST' signs indicates awareness but lacks enforcement; workers may be exposed to dropped loads or swinging loads from cranes."}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Debris Accumulation', 'description': 'The site has loose gravel, metal scraps, and construction debris scattered throughout, contributing to slip, trip, and fall risks. Piles of material obstruct pathways, reducing visibility and increasing the chance of accidents during movement.'}
+
+{'severity': 'Low', 'name': 'Lack of Personal Protective Equipment (PPE) Compliance', 'description': 'While some workers appear to be wearing hard hats and high-visibility clothing, others are not consistently using required PPE such as gloves, safety glasses, or protective footwear. Inconsistent use reduces overall site safety and compliance with regulations.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including unprotected fall hazards, improper material storage, inadequate barricades, exposure to moving machinery, poor housekeeping, and inconsistent PPE usage. Immediate corrective actions are recommended to mitigate critical and high-risk issues.

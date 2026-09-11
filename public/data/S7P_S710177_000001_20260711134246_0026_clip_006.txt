@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker navigating a walkway at height with no visible fall protection system in place. The walkway is elevated and surrounded by open edges, with only yellow railings that appear to be insufficient for fall prevention. There are no guardrails or safety nets installed on the open sides, creating a high risk of falling from elevation.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Integrity', 'description': 'The yellow guardrails along the walkway appear to be partially obstructed and may not meet safety standards. Some sections show gaps or missing components, reducing their effectiveness in preventing falls. Additionally, the railing structure is not fully enclosed, exposing workers to potential drop hazards.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility Due to Glare', 'description': 'Bright sunlight causes significant glare in multiple frames, impairing visibility of critical areas such as walkways and structural components. This can lead to misjudgment of distances and obstacles, increasing the risk of trips, slips, or falls, especially in high-risk zones.'}
+
+{'severity': 'Low', 'name': 'Cluttered Walkway and Obstructions', 'description': 'There are visible obstructions on the walkway, including loose materials and equipment near the edge, which could pose tripping hazards. While not immediately life-threatening, these items contribute to an unsafe working environment and may impede emergency evacuation.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the lack of proper fall protection systems in an elevated work area, combined with structural deficiencies in guardrails and environmental factors like glare. These issues collectively create a hazardous environment for personnel operating in this industrial setting.

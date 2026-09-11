@@ -1,0 +1,18 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Height', 'description': 'Workers are seen operating on elevated scaffolding structures without visible fall protection systems such as harnesses, guardrails, or safety nets. The scaffolding is located near open edges with no physical barriers, creating a high risk of falls from height, which can result in severe injury or fatality.'}
+
+{'severity': 'High', 'name': 'Improper Storage of Heavy Materials', 'description': 'Multiple large metal frames and structural components are stacked haphazardly on the ground, posing a risk of collapse or being knocked over by personnel or equipment. These materials are not secured and could cause crushing injuries or obstruct emergency access routes.'}
+
+{'severity': 'High', 'name': 'Unsecured Equipment and Tools', 'description': 'A power tool (possibly a grinder or cutter) is left unattended and unsecured on the ground within the work area. This creates a tripping hazard and poses a risk of accidental activation if disturbed, potentially causing injury.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Barricading and Signage', 'description': 'Although red-and-white caution tape is used to demarcate restricted areas, it appears loosely strung and does not fully prevent unauthorized access. The signage is present but may not be sufficient to alert all personnel to the hazards, especially given the size and complexity of the site.'}
+
+{'severity': 'Low', 'name': 'Cluttered Work Area', 'description': 'The ground is littered with loose cables, wooden poles, and debris, contributing to trip and slip hazards. While not immediately life-threatening, this disorganization increases the risk of minor accidents and reduces overall site safety efficiency.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most significant concerns involve unprotected work at height and improperly stored heavy materials, both of which pose immediate dangers to workers. Additional issues include unsecured tools and inadequate site organization, which contribute to an overall hazardous environment.

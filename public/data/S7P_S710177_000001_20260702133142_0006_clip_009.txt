@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unsecured Hazardous Equipment and Structural Integrity Concerns', 'description': 'The video reveals a large industrial facility with extensive steel frameworks, including tall towers and scaffolding. The presence of unguarded or inadequately secured structural components poses a significant risk of collapse or falling debris. Additionally, the proximity of workers (implied by the environment) to these structures without visible fall protection or safety barriers increases the likelihood of serious injury or fatality in the event of structural failure.'}
+
+{'severity': 'High', 'name': 'Exposure to Unprotected Open Areas and Elevated Surfaces', 'description': 'Multiple elevated platforms and walkways are visible within the facility, but there is no clear indication of guardrails, toe boards, or other fall prevention measures. Workers operating at height in such environments without proper edge protection are at high risk of falling, which could result in severe injuries or death.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Cluttered Work Environment', 'description': 'The ground area contains scattered debris, loose cables, gravel piles, and various equipment left unsecured. This clutter creates tripping hazards and may obstruct emergency evacuation routes, increasing the risk of accidents during routine operations or emergencies.'}
+
+{'severity': 'Low', 'name': 'Inadequate Labeling and Maintenance of Equipment', 'description': "The blue tanks labeled 'TAC TANK #1' show signs of rust and peeling paint, suggesting potential corrosion and lack of regular maintenance. While not immediately hazardous, deteriorating equipment can lead to leaks, failures, or environmental contamination over time if not addressed."}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concerns include structural integrity issues, unprotected elevated work areas, poor housekeeping, and deteriorating equipment. These findings indicate a need for immediate corrective actions to prevent accidents and ensure worker safety.

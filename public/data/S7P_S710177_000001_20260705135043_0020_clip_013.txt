@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Electrical Cables', 'description': 'Multiple electrical cables are seen dangling loosely from overhead structures, posing a tripping hazard and potential risk of electrical faults or short circuits. These cables are not properly secured or routed, increasing the likelihood of accidental disconnection or damage.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Guardrails on Stairways', 'description': 'The stairway railings appear worn and partially missing sections, particularly at key transition points. This increases the risk of falls, especially in an industrial environment where personnel may be carrying tools or materials.'}
+
+{'severity': 'Low', 'name': 'Poor Visibility Due to Overhead Obstructions', 'description': 'Overhead pipes, beams, and conduits create a cluttered workspace that limits visibility and could lead to accidental contact with hot or pressurized systems. While not immediately hazardous, this contributes to operational risks during movement and inspection.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a complex industrial setting with multiple structural elements such as large ducts, metal frameworks, and staircases. While no immediate life-threatening hazards are visible, several safety concerns related to electrical safety, fall protection, and workspace organization are present. The environment appears to be part of a processing or manufacturing facility with significant vertical access points, requiring strict adherence to safety protocols.

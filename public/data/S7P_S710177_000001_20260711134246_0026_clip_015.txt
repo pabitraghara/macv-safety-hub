@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'A worker is seen walking along an elevated platform with a guardrail that appears to be missing or improperly installed on one side, creating an unprotected edge. The worker is not wearing a fall arrest system (e.g., harness and lanyard), which increases the risk of a fatal fall. This violates OSHA standards for fall protection in industrial environments where work is performed at heights.'}
+
+{'severity': 'High', 'name': 'Inadequate Personal Protective Equipment (PPE)', 'description': 'The worker is wearing a hard hat, but it is unclear if they are using additional required PPE such as safety goggles, gloves, or hearing protection, depending on the task. In an industrial setting with potential exposure to dust, noise, or flying debris, full PPE is essential. The lack of visible protective gear may indicate non-compliance with site safety protocols.'}
+
+{'severity': 'Medium', 'name': 'Improper Use of Walkway/Platform', 'description': "The worker is navigating a narrow walkway that may not be designed for regular foot traffic, especially if it's part of a maintenance access route. The presence of large equipment and obstructions nearby increases the risk of tripping or collision. Workers should only use designated safe pathways, and this area may require clearer demarcation or temporary barriers."}
+
+{'severity': 'Low', 'name': 'Potential Obstruction on Platform', 'description': 'There are stacked metal grates and equipment near the walkway that could pose a tripping hazard or impede emergency egress. While not immediately dangerous, cluttered areas can compromise safety during evacuation or routine movement and should be kept clear per housekeeping standards.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical issue is the absence of fall protection while working near an unguarded edge, posing a significant risk of injury or fatality. Additional concerns include inadequate PPE, improper use of walkways, and potential obstruction hazards. Immediate corrective actions are recommended to ensure worker safety.

@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Elevated Work Area', 'description': 'Workers are operating near and on scaffolding structures at significant heights without visible fall protection systems such as harnesses, guardrails, or safety nets. The absence of proper edge protection increases the risk of fatal falls, especially in an environment with complex steel frameworks and open platforms.'}
+
+{'severity': 'High', 'name': 'Improper Use of Electrical Cables and Wires', 'description': 'Numerous electrical cables and hoses are laid across the ground in a disorganized manner, creating tripping hazards for personnel. These cables appear to be exposed and unsecured, increasing the risk of electrical shock, equipment damage, and potential fires if damaged by heavy machinery or foot traffic.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Personal Protective Equipment (PPE) Compliance', 'description': 'While most workers are wearing hard hats and high-visibility vests, some individuals are not consistently using full PPE, including safety goggles, gloves, or appropriate footwear. This partial compliance increases vulnerability to eye injuries, hand injuries, and slips/falls on uneven terrain.'}
+
+{'severity': 'Low', 'name': 'Cluttered Worksite with Obstructed Pathways', 'description': 'The site has scattered construction materials, metal rods, and debris that obstruct walkways and access routes. While not immediately life-threatening, this clutter contributes to trip hazards and can impede emergency evacuation or response efforts.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical risks include unprotected elevated work zones and hazardous cable layouts. High-risk issues involve inconsistent PPE usage, while medium and low-level concerns relate to site organization and material placement. Immediate corrective actions are required to prevent serious incidents.

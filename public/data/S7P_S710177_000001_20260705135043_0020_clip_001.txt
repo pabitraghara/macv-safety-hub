@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard on Staircase', 'description': 'The staircase in the video is missing critical safety features such as a complete handrail on one side and has loose or missing steps, creating a significant fall hazard. The presence of debris and tools left on the stairs further increases the risk of tripping or slipping. Workers ascending or descending this staircase are at high risk of falling due to these unsafe conditions.'}
+
+{'severity': 'High', 'name': 'Hazardous Ground Conditions', 'description': 'The ground surrounding the staircase is uneven, muddy, and cluttered with cables, hoses, and construction debris. This creates a trip hazard for personnel and may lead to slips, trips, or falls, especially in wet conditions. Poor housekeeping and lack of clear walkways contribute to an unsafe working environment.'}
+
+{'severity': 'Medium', 'name': 'Improper Cable Management', 'description': 'Electrical and utility cables are loosely laid across the floor without proper protection or routing. This poses a risk of tripping, electrical hazards, and potential damage to the cables from heavy equipment or foot traffic. Cables should be secured, elevated, or protected to prevent accidents.'}
+
+{'severity': 'Low', 'name': 'Inadequate Signage and Barriers', 'description': 'Although caution tape is present, it appears to be partially torn and not fully enclosing hazardous areas. This indicates insufficient warning systems for workers, potentially leading to unauthorized access to dangerous zones. Proper signage and barriers should be installed to clearly mark off restricted or high-risk areas.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the unsafe condition of the staircase, which presents a direct and immediate danger to personnel. Additional risks include poor ground conditions, unsecured cables, and inadequate hazard demarcation, all contributing to a hazardous work environment.

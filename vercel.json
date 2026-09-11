@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "src/app/api/proxy/[...path]/route.ts": {
+      "regions": ["sin1"]
+    }
+  }
+}

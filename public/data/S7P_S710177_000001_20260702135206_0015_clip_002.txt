@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Elevated Work Area', 'description': 'The video shows workers operating near a large steel framework structure with exposed edges and no visible guardrails or fall protection systems. The presence of an unguarded edge at height poses a severe risk of falls, especially given the absence of safety nets, scaffolding barriers, or personal fall arrest systems. This is a critical violation of OSHA and international safety standards for working at heights.'}
+
+{'severity': 'High', 'name': 'Inadequate Personal Protective Equipment (PPE) Use', 'description': 'While most workers are wearing hard hats and high-visibility vests, some individuals appear to be without proper PPE such as safety boots, gloves, or eye protection. Additionally, there is no visible use of harnesses or lanyards by workers near elevated structures, which increases the risk of serious injury in case of a fall.'}
+
+{'severity': 'Medium', 'name': 'Cluttered and Unsecured Worksite', 'description': 'The ground area around the structure contains loose cables, tools, and debris scattered across the site. This creates tripping hazards and could lead to accidents, especially in a high-traffic zone where multiple workers are moving. Lack of organized material storage and housekeeping practices increases overall site risk.'}
+
+{'severity': 'Low', 'name': 'Potential Electrical Hazard from Overhead Cables', 'description': 'Overhead wires are visible near the structure and may be energized. While no direct contact is observed, the proximity of workers to these lines without clear warning signs or exclusion zones raises a potential electrical hazard that should be addressed through proper signage and safe work procedures.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the lack of fall protection at height, followed by inconsistent PPE usage and poor site organization. These issues collectively increase the likelihood of serious incidents on-site.

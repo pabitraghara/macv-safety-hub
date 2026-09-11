@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Electrical Equipment', 'description': 'Multiple portable electrical units (possibly welders or generators) are placed on the ground without proper stabilization or protection. They are positioned near a high-voltage area with exposed cables, increasing the risk of electrical hazards, tripping, or accidental damage. These units should be secured and stored in designated safe zones to prevent exposure to moisture, impact, or unauthorized access.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Cluttered Work Area', 'description': 'The ground around the equipment is cluttered with loose cables, debris, and tools, creating a significant trip hazard. This disorganized environment increases the likelihood of slips, trips, and falls, especially in industrial settings where heavy machinery and materials are present. Proper housekeeping practices should be enforced to maintain clear walkways and work zones.'}
+
+{'severity': 'Medium', 'name': 'Exposed Cables and Poor Cable Management', 'description': 'Numerous electrical cables are lying on the ground and appear unsecured, potentially leading to tripping hazards or damage from foot traffic or equipment. Exposed cables can also pose an electrical shock risk if damaged or improperly insulated. Cables should be properly routed, secured, and protected using cable trays or conduits.'}
+
+{'severity': 'Low', 'name': 'Rusty and Corroded Equipment', 'description': 'The blue storage tanks and surrounding metal structures show visible signs of rust and corrosion, indicating potential deterioration of structural integrity and possible chemical leakage risks. Regular maintenance and inspection are required to ensure these tanks remain safe and functional.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The presence of unsecured electrical equipment, poor housekeeping, exposed cables, and corroded infrastructure highlights the need for improved safety protocols and regular maintenance checks to mitigate risks in this industrial environment.

@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection on Stairway', 'description': 'The stairway in the video has metal guardrails, but some sections appear to be missing or improperly installed, particularly at corners and landings. This creates a risk of falls for personnel using the stairs, especially in an industrial environment where sudden movements or slips may occur. Properly secured and continuous guardrails are required to prevent fall hazards.'}
+
+{'severity': 'Medium', 'name': 'Poor Lighting in Industrial Area', 'description': 'Certain areas of the facility, particularly near the upper levels and under large structures, show dim lighting conditions. Inadequate illumination increases the risk of tripping, missteps, or accidents when navigating complex staircases and platforms. Sufficient lighting is essential for safe movement in industrial environments.'}
+
+{'severity': 'Medium', 'name': 'Congested Walkways and Obstructed Pathways', 'description': 'The surrounding area features multiple walkways and platforms with pipes, railings, and equipment closely positioned. This congestion can impede safe passage and increase the likelihood of collisions or tripping hazards, especially if workers are carrying tools or materials.'}
+
+{'severity': 'Low', 'name': 'Worn or Corroded Structural Components', 'description': 'Some structural elements, such as metal beams and stair treads, show signs of rust and wear. While not immediately dangerous, corrosion over time can compromise structural integrity and pose long-term safety risks. Regular inspection and maintenance are recommended.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities.

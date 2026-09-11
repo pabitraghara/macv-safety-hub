@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'Workers are operating near elevated platforms and structural steel frameworks without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. The presence of open edges and high-level work areas without adequate barriers poses a significant risk of falls from height, which can result in severe injury or fatality.'}
+
+{'severity': 'High', 'name': 'Improper Use of Personal Protective Equipment (PPE)', 'description': 'While some workers are wearing hard hats, others appear to be using them improperly or not consistently across the site. Additionally, there is no visible use of high-visibility clothing, increasing the risk of being struck by moving equipment or vehicles. Proper PPE usage is essential in construction zones with multiple hazards.'}
+
+{'severity': 'Medium', 'name': 'Cluttered and Unsafe Work Environment', 'description': 'The worksite is cluttered with loose materials, cables, and tools scattered on the ground. This creates tripping hazards and increases the risk of accidents due to unsecured objects. The lack of organized material storage and walkways compromises worker safety and operational efficiency.'}
+
+{'severity': 'Low', 'name': 'Inadequate Signage Visibility', 'description': 'Although safety signage is present, it appears to be partially obscured or placed at an angle that may reduce visibility to workers. Clear and properly positioned signage is necessary to communicate hazards and safety instructions effectively across the site.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical concern is the lack of fall protection at elevated work areas, followed by inconsistent PPE use, unsafe site organization, and limited effectiveness of safety signage.

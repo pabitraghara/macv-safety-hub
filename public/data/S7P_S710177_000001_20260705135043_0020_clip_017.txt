@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Fall Protection on Open Stairway', 'description': 'The stairway shown in the video lacks proper guardrails at certain points, particularly on the open sides, creating a significant fall hazard. Workers ascending or descending could lose balance and fall into the open void below, especially given the height and industrial environment. The presence of exposed structural beams and gaps increases the risk of tripping or falling.'}
+
+{'severity': 'Medium', 'name': 'Poor Lighting and Visibility', 'description': 'Certain areas of the structure are poorly lit, particularly in the upper sections and beneath overhanging beams. This reduces visibility and can lead to missteps or collisions with structural elements, increasing the risk of slips, trips, and falls. Inadequate lighting also hampers safe navigation during emergency evacuations.'}
+
+{'severity': 'Medium', 'name': 'Unsecured Cables and Wires', 'description': 'Numerous cables and wires are visible running across walkways and near staircases without being properly secured or routed. These create trip hazards for personnel moving through the area and may be damaged if stepped on or pulled, potentially leading to electrical faults or equipment malfunction.'}
+
+{'severity': 'Low', 'name': 'Structural Corrosion and Wear', 'description': 'Signs of rust and wear are evident on some metal surfaces, including railings and steps. While not immediately hazardous, ongoing corrosion could compromise structural integrity over time, posing long-term safety risks if not addressed through regular maintenance.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a complex industrial structure with multiple levels and access points. Several safety concerns are present, including insufficient fall protection, poor lighting, unsecured wiring, and signs of structural degradation. These factors collectively increase the risk of accidents, particularly in high-traffic areas like staircases and walkways. Immediate corrective actions should focus on installing guardrails, improving illumination, and securing loose cables.

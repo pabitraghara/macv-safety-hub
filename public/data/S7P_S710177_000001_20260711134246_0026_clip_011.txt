@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker navigating a multi-level industrial structure with exposed edges and open grating. There is no visible fall protection system (e.g., harness, lanyard, or guardrails) in place, and the worker appears to be moving near unguarded openings at height. This poses an extreme risk of falling from elevation, which could result in serious injury or fatality.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection', 'description': 'Although yellow guardrails are present on some platforms, they appear incomplete or improperly installed in certain areas, particularly around stairways and access points. In some sections, the railings do not extend fully along walkways, leaving gaps that increase the risk of accidental falls.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility and Cluttered Pathways', 'description': 'The area contains numerous overhead structures, pipes, and cables that may obstruct visibility and create tripping hazards. The complex layout increases the risk of missteps or collisions, especially for workers moving quickly or carrying tools.'}
+
+{'severity': 'Low', 'name': 'Lack of Personal Protective Equipment (PPE) Visibility', 'description': 'While it is difficult to confirm from the footage, there is no clear indication that the worker is wearing essential PPE such as a hard hat, safety glasses, or high-visibility clothing. This raises concerns about compliance with standard safety protocols.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the absence of fall protection when working at height, combined with incomplete guardrails and potential trip hazards due to the industrial environment's complexity.

@@ -1,0 +1,18 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Gas Cylinders', 'description': 'Gas cylinders are stored upright but without proper securing or chain restraints, posing a risk of tipping over and causing fire or explosion if valves are damaged.'}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Area', 'description': 'The workshop area has scattered materials, tools, and debris on the ground, creating tripping hazards and obstructing emergency exits and movement pathways.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Signage Visibility', 'description': "Safety signs such as the 'Fire Extinguisher' sign are present but partially obscured or not clearly visible, reducing their effectiveness in emergencies."}
+
+{'severity': 'Low', 'name': 'Lack of Personal Protective Equipment (PPE) Visibility', 'description': 'Workers inside the workshop are not clearly seen wearing required PPE such as safety goggles, gloves, or helmets, indicating potential non-compliance with safety protocols.'}
+
+{'severity': 'Low', 'name': 'Open Workshop Entrance Without Barriers', 'description': 'The open entrance to the workshop lacks barriers or warning signage, increasing the risk of unauthorized access or accidental entry into hazardous zones.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most significant concerns include unsecured gas cylinders and cluttered workspaces, which pose immediate risks to personnel and operations. While some basic safety measures like signage are present, they are not fully effective due to poor placement or visibility. Overall, improvements in hazard control and compliance with PPE usage are recommended.

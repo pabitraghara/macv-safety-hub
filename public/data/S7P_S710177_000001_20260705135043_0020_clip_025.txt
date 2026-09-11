@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Cables and Wires', 'description': 'Multiple loose and hanging cables are visible in the vicinity of walkways and structural beams, posing a tripping hazard for personnel moving through the area. These cables are not properly secured or routed, increasing the risk of accidental disconnection or damage.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Guardrails on Elevated Platforms', 'description': 'Some elevated platforms and walkways lack sufficient guardrails or have incomplete railing systems, particularly near open edges. This increases the risk of falls for workers accessing these areas, especially in a complex industrial environment with multiple levels.'}
+
+{'severity': 'Low', 'name': 'Poor Visibility Due to Structural Obstructions', 'description': 'The dense network of steel beams, stairs, and platforms creates visual obstructions that may impair situational awareness for personnel navigating the space. While not an immediate hazard, this can contribute to missteps or collisions if workers are not cautious.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a multi-level industrial facility with extensive metal structures, staircases, and walkways. While no active personnel are visible, several safety concerns are present, including unsecured electrical cables, incomplete fall protection on certain platforms, and structural complexity that reduces visibility. The environment appears to be under construction or maintenance, which increases the importance of proper safety protocols.

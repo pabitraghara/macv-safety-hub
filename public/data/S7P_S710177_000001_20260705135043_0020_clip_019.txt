@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Exposed Electrical Cables and Conduit', 'description': 'Numerous electrical cables are bundled and exposed without proper conduit or protective housing, increasing the risk of damage, short circuits, or electrical hazards. The cables are running in close proximity to metal structures and moving parts, which could lead to accidental contact or abrasion.'}
+
+{'severity': 'Medium', 'name': 'Corrosion on Structural Steel', 'description': 'Visible rust and corrosion on vertical support beams and railings indicate potential structural degradation over time. This compromises the integrity of safety barriers and platforms, especially in high-traffic or elevated areas, increasing the risk of collapse or failure under load.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Guardrail Integrity', 'description': 'The guardrails appear loosely assembled or partially missing sections, particularly near open edges and walkways. This poses a fall hazard for personnel working at height, as the barriers may not provide sufficient protection during unexpected movements or slips.'}
+
+{'severity': 'Low', 'name': 'Cluttered Walkway and Cable Management', 'description': 'Cables and piping are densely packed along the walkway, creating a cluttered environment that may obstruct movement and increase tripping hazards. Poor cable management also complicates maintenance and inspection activities.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows an industrial facility with extensive use of steel structures, walkways, and electrical cabling. While no personnel are visible, multiple safety concerns are evident, including exposed electrical systems, corroded structural components, and incomplete safety railings. These conditions suggest potential risks related to electrical safety, structural integrity, and fall protection, requiring immediate attention to ensure worker safety.

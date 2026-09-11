@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Hot Work Area', 'description': "The video shows a 'HOT WORK IN PROGRESS' sign, indicating welding or cutting activities are occurring. However, there is no visible fire watch or fire extinguisher nearby, and the area lacks proper flame-resistant barriers. This poses a significant fire hazard, especially in an industrial environment with flammable materials present."}
+
+{'severity': 'High', 'name': 'Inadequate Fall Protection at Elevated Work Area', 'description': 'Workers are seen near elevated platforms and scaffolding without visible fall arrest systems or guardrails. The lack of fall protection increases the risk of serious injury or fatality in the event of a misstep or slip.'}
+
+{'severity': 'Medium', 'name': 'Improper Use of Personal Protective Equipment (PPE)', 'description': 'One worker is observed wearing a face mask incorrectly, potentially compromising respiratory protection. Additionally, some workers appear to be using hard hats without chin straps secured, which could result in the helmet falling off during a fall or impact.'}
+
+{'severity': 'Low', 'name': 'Cluttered Worksite with Tripping Hazards', 'description': 'Cables, hoses, and loose materials are scattered across the ground, creating tripping hazards for personnel moving through the area. While not immediately life-threatening, this can lead to minor injuries and reduced safety awareness.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including hot work zones, elevated platforms, and general worksite organization. Critical issues such as unprotected hot work and missing fall protection require immediate corrective action.

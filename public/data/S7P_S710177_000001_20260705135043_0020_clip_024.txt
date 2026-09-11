@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Guardrails on Elevated Platforms', 'description': 'Several elevated walkways and platforms lack fully installed or properly maintained guardrails, increasing the risk of falls. The visible railings appear to be missing sections or are improperly secured, especially near open edges and access points.'}
+
+{'severity': 'Medium', 'name': 'Exposed Structural Components and Sharp Edges', 'description': 'The industrial environment features numerous exposed steel beams, sharp metal edges, and protruding components that pose a risk of cuts, punctures, or entanglement for workers moving through the area.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility Due to Overhead Structures', 'description': 'The complex network of overhead beams, piping, and structural supports creates visual obstructions, which may hinder situational awareness and increase the likelihood of collisions or missteps in the workspace.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage or Safety Markings', 'description': 'There is no visible signage indicating hazards, restricted areas, or emergency exits. This absence can lead to confusion and improper navigation within the facility.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a large industrial facility with multiple levels, walkways, and complex structural elements. While no personnel are visible, the infrastructure presents several safety concerns related to fall protection, physical hazards, and navigational clarity. The environment appears to be under construction or maintenance, as indicated by incomplete railings and exposed framework.

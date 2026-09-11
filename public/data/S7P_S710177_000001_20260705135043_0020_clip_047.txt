@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unstable and Corroded Staircase Structure', 'description': 'The staircase features visible rust, structural wear, and potential instability due to deteriorated metal components. The steps appear worn and uneven, posing a high risk of slipping or collapse during use. This condition creates a severe fall hazard for personnel accessing elevated platforms.'}
+
+{'severity': 'High', 'name': 'Missing or Inadequate Guardrails', 'description': 'Several sections of the platform and stairway lack proper guardrails or have damaged handrails, increasing the risk of falls from height. The exposed edges without protective barriers are particularly dangerous in an industrial environment with moving equipment and personnel.'}
+
+{'severity': 'Medium', 'name': 'Poor Maintenance and Cluttered Work Area', 'description': 'The surrounding area shows signs of neglect, including debris, loose materials, and unsecured tools on platforms. This clutter increases trip hazards and may obstruct emergency access or evacuation routes.'}
+
+{'severity': 'Low', 'name': 'Inadequate Signage and Markings', 'description': 'There is a lack of visible safety signage, warning labels, or directional markers around the stairwell and platform. This absence could lead to confusion or unsafe navigation, especially for unfamiliar workers.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the structural integrity of the staircase and platform, which poses immediate risks of falls and injuries. Secondary issues include poor housekeeping, missing safety features, and insufficient communication through signage.

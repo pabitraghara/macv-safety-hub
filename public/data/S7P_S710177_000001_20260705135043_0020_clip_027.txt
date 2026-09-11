@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Stairway Guardrails', 'description': 'The metal stairway lacks proper guardrails on one side, increasing the risk of falls. The exposed open side presents a significant hazard, especially in an industrial environment with elevated platforms and moving equipment nearby.'}
+
+{'severity': 'Medium', 'name': 'Worn and Corroded Stair Treads', 'description': 'The stair treads show signs of wear, corrosion, and possible slip hazards due to rust and uneven surfaces. This increases the risk of tripping or slipping during ascent or descent.'}
+
+{'severity': 'Low', 'name': 'Improper Use of Mobile Device While Navigating Stairs', 'description': "A mobile device is visible in the operator's hand while ascending the stairs, indicating potential distraction. This behavior may reduce situational awareness and increase the risk of missteps or loss of balance."}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a first-person view of someone climbing a metal industrial staircase within a complex facility. Several safety concerns are present: missing guardrails, deteriorated steps, and distracted behavior due to device use. These conditions collectively elevate the risk of fall-related incidents, particularly in a high-traffic or hazardous industrial setting.

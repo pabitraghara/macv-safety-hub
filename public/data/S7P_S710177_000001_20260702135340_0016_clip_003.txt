@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Elevated Work Area', 'description': 'Workers are operating near and around scaffolding structures without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. The scaffolding appears to be at a significant height, and the absence of edge protection poses a high risk of fatal falls, especially given the lack of visible harnesses or lanyards.'}
+
+{'severity': 'High', 'name': 'Inadequate Head Protection Compliance', 'description': 'Although most workers are wearing hard hats, some individuals appear to have their helmets worn improperly (e.g., not secured under the chin). This increases the risk of head injury in case of falling objects or accidental impacts. Proper fit and use of protective headgear are essential in construction zones with overhead hazards.'}
+
+{'severity': 'Medium', 'name': 'Unsecured Tools and Materials on Ground', 'description': 'Various tools, rods, and construction materials are scattered across the ground near walkways and work areas. These create tripping hazards for personnel moving through the site and could lead to slips, falls, or injuries if not properly organized and stored.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage and Barriers', 'description': 'There is no visible signage indicating restricted access zones, hazard warnings, or emergency exits. Additionally, the area around the scaffolding and equipment lacks physical barriers to prevent unauthorized access, increasing the risk of accidents involving non-essential personnel.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical concern is the absence of fall protection at elevated work zones, which presents an immediate danger to workers. Other issues include improper use of personal protective equipment, cluttered workspaces, and insufficient safety signage, all contributing to a hazardous environment.

@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Stairway Maintenance', 'description': 'The metal stairway shows signs of significant wear, corrosion, and potential structural degradation. The grating on the steps appears rusted and uneven, which increases the risk of slips, trips, and falls. Additionally, some handrails appear loose or misaligned, reducing their effectiveness in providing support and stability during ascent or descent.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Obstructions', 'description': 'Debris, dirt, and scattered materials are visible on the stair treads and surrounding areas, creating a tripping hazard. The accumulation of dust and grime may also reduce traction, increasing the likelihood of slipping, especially in wet or oily conditions.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Safety Signage', 'description': 'There is no visible signage indicating warnings for fall hazards, slippery surfaces, or required personal protective equipment (PPE). While not immediately life-threatening, the absence of clear safety communication can contribute to complacency and reduced awareness of risks.'}
+
+
+DESCRIPTION
+==================================================
+
+The video captures a worker ascending a metal industrial stairway within a construction or manufacturing environment. The primary safety concerns include deteriorated stair components, poor housekeeping, and insufficient safety signage. These factors collectively increase the risk of slips, trips, and falls, particularly in high-traffic or hazardous work zones.

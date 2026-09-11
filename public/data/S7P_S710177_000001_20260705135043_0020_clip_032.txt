@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Stairway Guardrails', 'description': 'The stairway features missing or improperly installed guardrails on one side, particularly noticeable at the mid-landing and upper sections. This creates a significant fall hazard for personnel ascending or descending the stairs, especially in an industrial environment with elevated platforms and moving equipment.'}
+
+{'severity': 'Medium', 'name': 'Rusted and Corroded Structural Components', 'description': 'Visible rust and corrosion are present on multiple structural steel elements, including beams and railings. This degradation compromises the integrity of the structure and increases the risk of sudden failure, particularly under load or during maintenance activities.'}
+
+{'severity': 'Medium', 'name': 'Poor Lighting Conditions', 'description': 'Certain areas of the staircase and surrounding walkways are poorly lit, especially near the lower and upper landings. Inadequate lighting increases the risk of trips, slips, and falls, particularly in a complex industrial setting with overhead piping and machinery.'}
+
+{'severity': 'Low', 'name': 'Obstructed View Due to Overhead Piping', 'description': 'Overhead pipes and conduits obstruct the line of sight along the stairwell, potentially impairing visibility for workers and increasing the risk of collisions or missteps when navigating the area.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concerns involve structural integrity and fall protection, with secondary issues related to environmental hazards such as lighting and visibility.

@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'Workers are operating at height near an unguarded edge without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. The open edge of the structure poses a significant risk of falling, especially given the height and lack of physical barriers.'}
+
+{'severity': 'High', 'name': 'Improper Use of Equipment', 'description': 'A concrete mixer is positioned close to the edge of the work area with no securing measures in place. There is a risk of the equipment tipping over or being accidentally pushed into the void, potentially causing injury or damage.'}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Area', 'description': 'The workspace is cluttered with tools, cables, and construction materials scattered on the ground, increasing the risk of tripping hazards for workers moving through the area.'}
+
+{'severity': 'Low', 'name': 'Inadequate Personal Protective Equipment (PPE)', 'description': 'While some workers are wearing hard hats, there is no clear indication that all personnel are equipped with appropriate PPE such as high-visibility clothing, gloves, or eye protection, which may compromise their safety during active construction tasks.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical concern is the absence of fall protection at elevated work zones, followed by unsafe placement of heavy equipment and general site disorganization. These issues collectively increase the risk of serious incidents.

@@ -1,0 +1,18 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The construction site features an open structural framework with exposed edges and elevated platforms. Workers are seen walking near unguarded openings and working at height without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems (PFAS). This presents a high risk of falls from elevation, which can result in serious injury or fatality.'}
+
+{'severity': 'High', 'name': 'Improper Use of Personal Protective Equipment (PPE)', 'description': 'While some workers are wearing hard hats, not all personnel appear to be using appropriate PPE, such as high-visibility clothing, safety goggles, or gloves. Additionally, one worker is seen without a proper face shield or eye protection while operating near potential debris or welding areas. Inadequate PPE increases the risk of head, eye, and hand injuries.'}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Area and Tripping Hazards', 'description': 'The ground is littered with loose tools, cables, wooden poles, and metal rods, creating significant tripping hazards. The disorganized layout increases the likelihood of slips, trips, and falls, especially in areas with frequent foot traffic and equipment movement.'}
+
+{'severity': 'Medium', 'name': 'Unsecured Materials and Equipment', 'description': 'Various materials, including pipes, cables, and yellow tarps, are left unsecured and scattered across the site. These items could shift due to wind or movement, posing risks of falling objects or obstructing emergency egress routes.'}
+
+{'severity': 'Low', 'name': 'Inadequate Signage and Barricades', 'description': 'There is a lack of clear signage indicating restricted zones, hazard warnings, or safe walkways. This may lead to unauthorized access to dangerous areas or confusion among workers regarding safe movement within the site.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical concerns include unprotected fall hazards and inadequate use of PPE, while medium-level risks involve cluttered workspaces and unsecured materials. Addressing these issues promptly is essential to prevent accidents and ensure compliance with occupational safety standards.

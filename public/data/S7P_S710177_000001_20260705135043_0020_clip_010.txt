@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Platforms', 'description': 'The video shows multiple elevated walkways and platforms with incomplete or missing guardrails, particularly at transitions and open edges. Workers could fall from these areas due to lack of proper fall protection systems such as handrails, toe boards, or safety nets. The absence of a fully enclosed barrier increases the risk of accidental falls, especially in a high-traffic industrial environment.'}
+
+{'severity': 'High', 'name': 'Inadequate Safety Netting Coverage', 'description': 'While safety netting is present overhead, it appears partially damaged, sagging, and improperly secured in several locations. This compromises its effectiveness in catching falling objects or personnel. Gaps in the netting could allow tools, materials, or workers to pass through, posing a serious hazard below.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Obstructed Walkways', 'description': 'Various debris, cables, and equipment are scattered across the walkways and platforms, creating tripping hazards. These obstructions reduce safe passage and may cause slips or falls, especially in low-light conditions or when workers are carrying tools.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Warning Signs or Markings', 'description': "There are no visible warning signs indicating potential hazards such as 'Fall Risk', 'Hard Hat Area', or 'Restricted Access'. The absence of signage reduces awareness and may lead to unsafe behavior by personnel unfamiliar with the site."}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical concern is the lack of adequate fall protection on elevated platforms, which poses an immediate danger. Additional risks include compromised safety netting, cluttered walkways, and insufficient signage, all contributing to an overall hazardous working environment.

@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'Worker descending stairs without a properly secured fall protection system, including a harness and lanyard, while working at height. The stairwell is located in an industrial environment with significant elevation changes and exposed structural elements. Although the railing appears to be present, the absence of personal fall arrest equipment poses a high risk of serious injury or fatality in the event of a slip or misstep.'}
+
+{'severity': 'High', 'name': 'Inadequate Personal Protective Equipment (PPE)', 'description': 'The worker is wearing a hard hat, which is appropriate for the environment, but there is no visible use of additional required PPE such as safety goggles, gloves, or high-visibility clothing. In an industrial setting with potential for falling debris, chemical exposure, or mechanical hazards, this lack of comprehensive PPE increases the risk of injury.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility and Cluttered Environment', 'description': 'The area around the staircase is cluttered with scaffolding, pipes, and construction materials, which can obstruct movement and increase the risk of tripping or collision. Poor visibility due to complex overhead structures may also contribute to navigation difficulties and reduce situational awareness.'}
+
+{'severity': 'Low', 'name': 'Lack of Safety Signage', 'description': 'There are no visible warning signs or safety instructions near the staircase or surrounding areas. While not immediately dangerous, the absence of signage could lead to confusion or non-compliance with safety protocols, especially for new or unfamiliar workers.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the lack of fall protection while working at height, which constitutes a critical hazard. Additional issues include incomplete PPE usage, environmental clutter, and missing safety signage, all contributing to an overall elevated risk profile in the industrial facility.

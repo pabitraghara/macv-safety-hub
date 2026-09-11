@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker operating at height near an unguarded edge with no visible fall protection system in place. The area includes elevated platforms and walkways without proper guardrails or safety barriers, posing a significant risk of falls from elevation. The lack of personal fall arrest systems (PFAS) such as harnesses, lanyards, or anchor points increases the danger, especially in an industrial environment with complex structures.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrails and Structural Integrity Concerns', 'description': 'Several sections of the walkways and platforms appear to have missing or damaged guardrails, particularly around open edges and access points. This creates a high-risk situation for workers moving through the area. Additionally, rust and corrosion on metal surfaces suggest potential structural degradation, which could compromise stability and safety over time.'}
+
+{'severity': 'Medium', 'name': 'Use of Mobile Device in Hazardous Environment', 'description': 'A worker is seen handling a mobile phone while standing near elevated platforms and industrial equipment. Using electronic devices in such environments can distract the operator, increasing the likelihood of accidents due to reduced situational awareness. This is especially concerning if the device is used for non-essential tasks during work hours.'}
+
+{'severity': 'Low', 'name': 'Poor Housekeeping and Cluttered Work Area', 'description': 'There are signs of accumulated dust, debris, and possible material spillage on platforms and walkways. While not immediately life-threatening, poor housekeeping can contribute to slip, trip, and fall hazards and may also interfere with emergency evacuation routes.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical issues include unprotected fall hazards and inadequate guardrails, indicating a failure to comply with basic fall protection standards. High-risk elements such as structural corrosion and improper use of mobile devices further compound the safety concerns. Medium and low-level risks related to housekeeping and distraction add to the overall unsafe working environment.

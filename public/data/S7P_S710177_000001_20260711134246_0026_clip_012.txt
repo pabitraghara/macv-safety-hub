@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker operating at height near an open edge with no visible fall protection system in place. The area includes metal grating and guardrails, but the camera angle reveals that the worker is positioned close to an unguarded opening or platform edge, increasing the risk of a fall from elevation. This violates OSHA and industry standards requiring fall protection when working at heights above 4 feet.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Integrity', 'description': 'Although yellow guardrails are present, they appear to be partially obstructed or not fully installed around the entire perimeter of the elevated walkway. This creates gaps where personnel could potentially step through or lose balance, posing a significant fall risk. Proper guardrail systems must provide continuous protection along all open edges.'}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Area', 'description': 'Debris and materials are visible on the grating surface below, indicating poor housekeeping practices. Accumulated debris can create tripping hazards for workers moving across the platform and may also interfere with equipment operation or maintenance access.'}
+
+{'severity': 'Low', 'name': 'Lack of Personal Protective Equipment (PPE) Visibility', 'description': 'While not clearly visible due to camera angle, there is no clear indication that the worker is wearing required PPE such as a hard hat, safety glasses, or high-visibility clothing. Although this may not be directly observable, the absence of visible PPE raises concern about compliance with site safety protocols.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including unprotected fall zones, incomplete guardrails, and cluttered workspaces. These issues collectively increase the risk of serious injury or fatality if corrective actions are not implemented promptly.

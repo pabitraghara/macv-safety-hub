@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The worker is ascending a metal staircase in an industrial facility without visible fall protection equipment, such as a safety harness or lanyard. The staircase is located at height with exposed edges and open sides, increasing the risk of a fall if the worker loses balance. There are no guardrails on the outer side of the staircase, which is a significant safety violation in high-risk environments.'}
+
+{'severity': 'High', 'name': 'Inadequate Personal Protective Equipment (PPE)', 'description': 'Although the worker is wearing a hard hat, there is no visible use of additional PPE such as safety goggles, gloves, or high-visibility clothing. In an industrial setting with potential for falling debris, electrical hazards, or exposure to dust, this lack of comprehensive PPE increases the risk of injury.'}
+
+{'severity': 'Medium', 'name': 'Improper Use of Staircase Handrail', 'description': 'The worker uses only one hand on the handrail while climbing, which reduces stability and increases the risk of slipping or losing balance. Proper procedure requires holding the handrail firmly with both hands when navigating elevated staircases, especially in potentially hazardous environments.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Safety Signage', 'description': 'There are no visible warning signs or safety instructions near the staircase or surrounding area, which could lead to confusion or unawareness of potential hazards. While not immediately dangerous, this omission contributes to a weaker overall safety culture.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical issue is the absence of fall protection while working at height, which poses an immediate danger. Additional concerns include insufficient PPE, improper handrail usage, and missing safety signage, all contributing to a higher risk environment.

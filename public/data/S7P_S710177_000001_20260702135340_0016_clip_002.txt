@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Fall Protection at Elevated Work Areas', 'description': 'Workers are seen near elevated platforms and scaffolding without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. The green scaffolding appears to lack proper edge protection, increasing the risk of falls from height.'}
+
+{'severity': 'Medium', 'name': 'Improper Use of Personal Protective Equipment (PPE)', 'description': 'While most workers are wearing hard hats and high-visibility vests, some individuals appear to be using non-standard or mismatched PPE, including hard hats that may not meet safety standards. Additionally, one worker is observed without a visible face covering or eye protection, which could expose them to dust, debris, or chemical hazards.'}
+
+{'severity': 'Medium', 'name': 'Cluttered and Unorganized Worksite', 'description': 'The ground is littered with tools, hoses, wooden planks, and other materials, creating tripping hazards. This disorganization increases the risk of slips, trips, and falls, especially in an area where heavy machinery and moving personnel are present.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage and Barriers', 'description': 'There is no visible signage indicating hazardous areas, restricted zones, or safety instructions. The absence of clear demarcations and barriers may lead to unauthorized access to dangerous areas or confusion among workers regarding safe pathways.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a construction site with multiple workers engaged in various activities. While basic PPE is generally worn, significant safety risks remain due to inadequate fall protection, cluttered workspaces, and missing safety signage. The environment suggests ongoing construction or maintenance work, with potential for serious incidents if corrective actions are not taken.

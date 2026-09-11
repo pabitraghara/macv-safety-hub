@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The worker is standing on an elevated platform with an open edge, lacking proper fall protection such as a safety harness or guardrails. The area appears to be at significant height above ground level, increasing the risk of fatal injury in the event of a fall. The absence of a secure perimeter barrier or personal fall arrest system constitutes a critical safety violation.'}
+
+{'severity': 'High', 'name': 'Inadequate Personal Protective Equipment (PPE)', 'description': "Although the worker is wearing a hard hat, there is no visible use of a safety harness, lanyard, or fall arrest system. Additionally, the worker's clothing does not appear to include high-visibility elements or appropriate protective gear for working at height. This increases exposure to potential injuries from falling objects or slips and trips."}
+
+{'severity': 'Medium', 'name': 'Improper Material Storage', 'description': 'Steel rods and other materials are loosely stacked on the platform, creating tripping hazards and potential for objects to shift or fall during movement. This improper storage could lead to dropped object incidents, endangering personnel below or nearby.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage or Warning Labels', 'description': 'There are no visible warning signs indicating the presence of fall hazards or restricted areas. While not immediately life-threatening, this omission reduces situational awareness and may contribute to complacency among workers.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the lack of fall protection while working at height, which poses a direct threat to worker safety. Additional risks include improper material handling and inadequate PPE usage, all contributing to a hazardous work environment.

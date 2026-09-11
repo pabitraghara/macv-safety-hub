@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection on Stairway', 'description': 'The stairway in the video lacks proper guardrails on the open side, creating a significant fall hazard for personnel using the stairs. The railing is missing or incomplete, particularly at the edge of the platform, increasing the risk of accidental falls from height.'}
+
+{'severity': 'Medium', 'name': 'Exposed and Corroded Structural Components', 'description': 'Several structural elements, including pipes and beams, show signs of rust and corrosion. This degradation can compromise the integrity of the structure over time, potentially leading to failures under load or during maintenance activities.'}
+
+{'severity': 'Low', 'name': 'Cluttered and Obstructed Walkways', 'description': 'There are visible obstructions such as cables and equipment near the stairwell and walkways, which may impede safe passage and increase the risk of tripping or collision, especially in emergency situations.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a complex industrial environment with multiple levels and access points. While no active personnel are observed, several safety concerns are evident: missing or inadequate guardrails, corroded infrastructure, and potential trip hazards from clutter. These issues collectively contribute to an elevated risk profile, particularly for workers navigating the area.

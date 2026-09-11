@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Structures', 'description': 'The video shows a large industrial structure with extensive steel frameworks and elevated platforms, including walkways and scaffolding. Workers are visible at various heights without clear evidence of fall protection systems such as guardrails, safety nets, or personal fall arrest systems (PFAS). The absence of edge protection on open sides of platforms poses a severe risk of falls, especially in an environment with significant height differences.'}
+
+{'severity': 'High', 'name': 'Inadequate Site Housekeeping and Tripping Hazards', 'description': 'The ground area is cluttered with loose materials, metal beams, tools, and debris scattered across the work zone. This creates multiple tripping hazards for personnel moving through the site, increasing the risk of slips, trips, and falls. Proper housekeeping practices should be enforced to maintain clear pathways and reduce injury risks.'}
+
+{'severity': 'Medium', 'name': 'Lack of Visible Safety Signage and Barriers', 'description': 'Although some temporary barriers are present, there is insufficient use of warning signs, hazard markings, or restricted access signage around high-risk areas such as structural openings, unstable zones, or active construction zones. This lack of communication can lead to unauthorized entry into dangerous areas.'}
+
+{'severity': 'Low', 'name': 'Potential Exposure to Noise and Dust Hazards', 'description': 'The industrial setting includes operational equipment, heavy machinery, and ongoing construction activities that may generate high levels of noise and airborne dust. While not immediately visible, workers may be exposed to these environmental hazards without proper hearing protection or respiratory gear, posing long-term health risks.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical concern is the lack of fall protection on elevated platforms, followed by poor site organization and inadequate signage. These issues collectively contribute to a hazardous working environment that requires immediate corrective actions.

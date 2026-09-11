@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unsecured Heavy Equipment and Structural Instability', 'description': 'The video shows a large industrial structure with heavy metal components, including chains and beams, suspended or supported by structural elements that appear rusted and deteriorated. The visible corrosion on the steel supports raises concerns about structural integrity, which could lead to catastrophic failure under load. Additionally, the presence of hanging chains without visible safety locks or load indicators suggests improper rigging practices, increasing the risk of unexpected drops or collapse.'}
+
+{'severity': 'High', 'name': 'Inadequate Fall Protection in Elevated Areas', 'description': 'The camera view reveals an elevated platform or working area surrounded by open edges with no guardrails or fall protection systems installed. Workers operating in this zone would be exposed to a high risk of falling, especially given the height and proximity to machinery. This is a clear violation of OSHA and similar safety standards requiring edge protection for elevated work areas.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility and Obstructed Access', 'description': 'The complex arrangement of metal frameworks, chains, and platforms creates a cluttered environment that may impede safe movement and emergency evacuation. The narrow pathways and obstructed views increase the risk of tripping, collision, or delayed response during an incident. Proper housekeeping and signage are missing, contributing to potential operational hazards.'}
+
+{'severity': 'Low', 'name': 'Lack of Personal Protective Equipment (PPE) Indicators', 'description': 'While no personnel are clearly visible in the frames, the absence of any visible PPE such as hard hats, safety glasses, or high-visibility clothing suggests a possible lack of enforcement of standard safety protocols. Although not directly observed, this reflects a systemic issue in safety culture if workers are not consistently equipped with required protective gear.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the structural condition of the equipment and the lack of fall protection, both of which pose immediate threats to worker safety. Secondary risks include poor access and visibility, as well as potential deficiencies in PPE usage.

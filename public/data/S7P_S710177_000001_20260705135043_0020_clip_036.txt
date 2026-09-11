@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection on Stairway', 'description': 'The metal stairway lacks proper guardrails on the open sides, particularly at the upper landing and mid-sections. This creates a significant fall hazard for personnel using the stairs, especially in an industrial environment with elevated platforms and moving equipment nearby.'}
+
+{'severity': 'Medium', 'name': 'Exposure to Falling Objects', 'description': 'Overhead structures and suspended components, such as cables and pipes, are present above walkways and staircases. There is no visible protection (e.g., overhead guards or netting) to prevent falling objects from injuring workers below, which poses a risk in high-traffic areas.'}
+
+{'severity': 'Low', 'name': 'Cluttered Walkways and Structural Obstructions', 'description': 'Various structural elements, including beams and piping, obstruct clear pathways around the staircase and platform areas. While not immediately hazardous, these obstructions can impede safe movement, increase tripping risks, and reduce visibility, especially during emergency evacuations.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a complex industrial facility with multiple levels, staircases, and structural steelwork. While no active personnel are seen, several safety concerns are evident. The most pressing issue is the lack of adequate fall protection on the stairway, followed by exposure to falling objects and potential trip hazards due to cluttered pathways. These conditions suggest a need for immediate corrective actions to ensure worker safety in this environment.

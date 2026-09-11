@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Staircase', 'description': 'The staircase features a missing or damaged step near the top, creating a significant tripping and fall hazard. The metal grating is visibly corroded and partially broken, compromising structural integrity. Workers ascending or descending this stairway are at high risk of falling, especially in wet or slippery conditions.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrails on Platform', 'description': 'The platform at the top of the stairs lacks proper guardrails or has incomplete railing systems. This exposes individuals to fall risks when accessing or working on the platform. The absence of protective barriers violates OSHA standards for elevated work areas.'}
+
+{'severity': 'Medium', 'name': 'Presence of Debris and Obstructions', 'description': 'There is accumulated debris, including loose metal sheets and dust, on the stairs and platform. These obstructions can cause slips, trips, or falls and may also interfere with safe movement, particularly in emergency situations.'}
+
+{'severity': 'Low', 'name': 'Corrosion and Structural Deterioration', 'description': 'Visible rust and corrosion on steel components of the staircase and surrounding structure indicate long-term exposure and lack of maintenance. While not immediately hazardous, this deterioration could lead to structural failure over time if not addressed.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities.

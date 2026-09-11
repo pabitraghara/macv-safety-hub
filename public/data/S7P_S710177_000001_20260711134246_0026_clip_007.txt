@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unsecured Load on Elevated Walkway', 'description': 'Multiple large metal grating panels are stacked precariously along the edge of an elevated walkway without proper securing or containment. These panels are positioned near an open side with no guardrails, creating a significant risk of falling objects that could injure workers below. The lack of fall arrest systems or barriers increases the hazard level, especially in an industrial environment where personnel may be working at lower levels.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection', 'description': 'The walkway features yellow handrails, but they appear to be missing sections or improperly installed, particularly near the stacking area. This creates unprotected edges where workers could potentially fall from height. The absence of continuous guardrails violates OSHA standards for fall protection in industrial settings.'}
+
+{'severity': 'Medium', 'name': 'Improper Material Storage', 'description': 'Materials (metal grates) are stored horizontally and stacked without stabilization, increasing the risk of collapse or shifting during movement. This improper storage method poses a tripping hazard and can lead to material failure if disturbed by equipment or personnel.'}
+
+{'severity': 'Low', 'name': 'Poor Visibility Due to Structural Obstructions', 'description': 'The complex arrangement of beams, pipes, and stacked materials limits visibility and access in certain areas, potentially hindering emergency evacuation or response efforts. While not immediately dangerous, this contributes to a less safe work environment overall.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical concern is the unsecured load on the elevated walkway, which presents a high risk of falling objects. Additional hazards include inadequate guardrail protection, improper material storage, and limited visibility due to structural obstructions.

@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'Multiple workers are seen operating near elevated structural steel frameworks without visible fall protection systems such as guardrails, safety nets, or personal fall arrest systems. The open framework structure presents a significant risk of falls from height, especially when workers are positioned close to unguarded edges.'}
+
+{'severity': 'High', 'name': 'Inadequate Personal Protective Equipment (PPE) Use', 'description': 'While most workers are wearing hard hats and high-visibility vests, some individuals appear to be missing essential PPE such as safety goggles, gloves, or steel-toed boots. Additionally, the use of face masks is inconsistent, increasing exposure to dust and airborne particles in an industrial environment.'}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Area with Tripping Hazards', 'description': 'The ground is cluttered with loose materials, including metal rods, ladders, and construction debris, creating tripping hazards for personnel moving through the site. This disorganization increases the risk of slips, trips, and falls, particularly in areas with heavy foot traffic.'}
+
+{'severity': 'Low', 'name': 'Improper Storage of Tools and Materials', 'description': 'Tools and long metal rods are left lying on the ground in disorganized piles rather than being stored in designated areas. This practice not only contributes to trip hazards but also increases the risk of material damage and unauthorized access.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concern is the lack of fall protection at heights, followed by inconsistent PPE usage and hazardous site organization. Immediate corrective actions are required to mitigate critical risks and improve overall site safety.

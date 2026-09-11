@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'A worker is operating near an open edge without visible fall protection, such as a harness or guardrail. The area appears to be at height with no physical barriers preventing a fall into the lower level, posing a severe risk of fatal injury.'}
+
+{'severity': 'High', 'name': 'Improper Use of Power Equipment', 'description': 'A concrete mixer is positioned close to the edge of the work area and appears to be in operation. There is no clear safety barrier or restriction around the equipment, increasing the risk of accidental contact or tipping, especially if the operator is distracted or loses balance.'}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Environment', 'description': 'The workspace is cluttered with cables, tools, and materials scattered on the ground. This creates tripping hazards for workers moving through the area and may obstruct emergency egress routes.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage or Warning Labels', 'description': 'Although there are some warning signs present, they are not clearly visible or placed in optimal locations. Additional signage indicating hazardous areas or equipment usage could improve awareness and reduce risks.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most critical issue is the lack of fall protection for a worker near an open edge. Other concerns include unsafe equipment placement, poor housekeeping, and insufficient visual warnings.

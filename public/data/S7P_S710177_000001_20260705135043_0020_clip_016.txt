@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Fall Protection in Elevated Work Areas', 'description': 'The video shows a complex industrial structure with multiple elevated platforms and walkways. Workers are observed operating at height without visible fall protection systems such as harnesses, guardrails, or safety nets. The presence of open edges and unguarded platforms increases the risk of accidental falls, which can result in serious injury or fatality.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Cluttered Walkways', 'description': 'Cables, tools, and equipment are seen loosely hanging or placed along walkways and platforms. This creates tripping hazards and obstructs safe movement, especially in emergency situations. Proper organization and storage of materials are essential to maintain clear access routes.'}
+
+{'severity': 'Medium', 'name': 'Exposure to Structural Hazards', 'description': 'The environment features exposed beams, sharp edges, and protruding metal structures that pose risks of impact injuries. Workers navigating through these areas may be at risk of cuts, bruises, or more severe trauma if proper personal protective equipment (PPE) is not worn.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Safety Signage', 'description': 'There are no clearly visible warning signs or hazard indicators in the area. This lack of communication regarding potential dangers reduces situational awareness for personnel and visitors, increasing the likelihood of unsafe behavior.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The primary concerns include fall hazards due to unprotected edges, cluttered pathways, and structural risks from exposed components. While no immediate critical incidents are captured, the cumulative effect of these issues presents significant safety challenges in this industrial setting.

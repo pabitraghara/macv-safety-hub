@@ -1,0 +1,18 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard at Elevated Platforms', 'description': 'Multiple elevated platforms and staircases are present without proper guardrails or fall protection systems. Workers are seen operating near unguarded edges, creating a high risk of falls from height. The lack of fall arrest systems or safety nets increases the danger significantly.'}
+
+{'severity': 'High', 'name': 'Improper Storage of Gas Cylinders', 'description': 'Gas cylinders are stored in an upright position but appear to be unsecured and located near walkways. This poses a risk of tipping over, especially if disturbed by movement or equipment, potentially leading to leaks, fires, or explosions.'}
+
+{'severity': 'High', 'name': 'Cluttered and Obstructed Walkways', 'description': 'The ground area is cluttered with debris, cables, metal rods, and construction materials, obstructing clear pathways. This creates tripping hazards and may impede emergency evacuation routes, increasing the risk of accidents.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Personal Protective Equipment (PPE) Usage', 'description': 'While some workers are wearing hard hats and high-visibility clothing, not all individuals appear to be using full PPE, such as safety goggles, gloves, or hearing protection. This increases exposure to potential eye, hand, and hearing injuries.'}
+
+{'severity': 'Low', 'name': 'Presence of Graffiti on Safety Structures', 'description': 'Graffiti is visible on a concrete structure near a safety sign, which could indicate a lack of site discipline and maintenance. While not directly hazardous, it reflects poor site management and may contribute to a culture of disregard for safety protocols.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. Critical risks include unprotected fall zones and improper storage of gas cylinders. High-risk issues involve obstructed walkways and inadequate PPE usage. The overall environment suggests a need for improved hazard control and worker compliance with safety standards.

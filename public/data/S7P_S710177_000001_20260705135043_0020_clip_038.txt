@@ -1,0 +1,14 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Inadequate Stairway Guardrails', 'description': 'The metal stairway lacks proper guardrails on the open sides, particularly at the upper landing and mid-level sections. This poses a significant fall hazard for personnel ascending or descending, especially in an industrial environment with elevated platforms and moving equipment nearby.'}
+
+{'severity': 'Medium', 'name': 'Degraded Stair Treads and Platforms', 'description': 'Several steps and platform grates appear worn, corroded, or loose, increasing the risk of tripping or slipping. The condition of the metal surfaces may compromise structural integrity and worker safety during routine movement.'}
+
+{'severity': 'Low', 'name': 'Lack of Signage or Warning Labels', 'description': 'There are no visible warning signs, directional markers, or safety instructions near the stairway, which could hinder safe navigation and awareness of potential hazards in the area.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities.

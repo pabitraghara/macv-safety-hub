@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'High', 'name': 'Unsecured Electrical Equipment and Cables', 'description': 'Multiple yellow welding machines (KORE ARC) are placed on the ground with loose, unorganized cables extending across the work area. This creates a tripping hazard for workers and increases the risk of electrical faults or short circuits due to damaged or exposed wiring. The lack of cable management also suggests poor housekeeping and potential fire hazards.'}
+
+{'severity': 'Medium', 'name': 'Inadequate Personal Protective Equipment (PPE) Compliance', 'description': 'While most individuals are wearing hard hats and high-visibility vests, one worker is seen without a visible face covering or safety goggles, which may be required depending on the task. Additionally, some workers are not wearing appropriate footwear, such as steel-toed boots, increasing the risk of foot injuries from falling objects or sharp debris.'}
+
+{'severity': 'Medium', 'name': 'Cluttered Work Area with Obstructed Pathways', 'description': 'The ground is littered with tools, cables, containers, and construction materials, creating an unsafe environment. This clutter obstructs walkways and can lead to slips, trips, and falls. Proper material storage and site organization are essential to maintain safe access routes.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage for Hazardous Areas', 'description': "Although there is a 'SAFE ZONE-5' sign present, it does not clearly indicate all active hazards in the vicinity, such as overhead crane operations or electrical equipment zones. Additional signage for specific risks like 'Electrical Hazard' or 'Caution: Moving Equipment' would improve situational awareness."}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a construction site with ongoing activities involving heavy machinery and electrical equipment. While some safety measures are in place—such as high-visibility clothing and designated safe zones—several safety risks remain. The primary concerns include unsecured electrical equipment and cables, inadequate PPE compliance, and a cluttered work environment that poses trip and fall hazards. These issues, if not addressed, could lead to accidents or injuries. Improved housekeeping, better cable management, and enhanced signage would significantly improve overall site safety.

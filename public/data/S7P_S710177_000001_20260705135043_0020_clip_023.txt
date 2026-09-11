@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker approaching and standing near an open edge with no guardrails or fall protection measures in place. The area appears to be at an elevated level, and the absence of proper fall arrest systems or safety barriers poses a significant risk of fatal falls. This is a critical violation of OSHA standards for working at heights.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Integrity', 'description': 'The metal guardrails visible in the video show signs of rust, corrosion, and structural weakness, particularly around joints and connections. These compromised railings may fail under load, increasing the risk of falls. Regular inspection and maintenance are required to ensure structural integrity.'}
+
+{'severity': 'Medium', 'name': 'Poor Housekeeping and Obstructed Pathways', 'description': 'Debris and loose materials are visible on the walkway and surrounding platforms, creating tripping hazards. Cluttered areas can impede emergency egress and increase the likelihood of slips, trips, and falls, especially in industrial environments where workers move frequently.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Safety Signage', 'description': 'There is no visible signage indicating hazard warnings, restricted access zones, or fall protection requirements. Proper labeling would help reinforce safe behaviors and alert personnel to potential dangers in the area.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including unprotected edges, deteriorating guardrails, and poor housekeeping. Immediate corrective actions are needed to mitigate high-risk hazards and ensure compliance with occupational safety regulations.

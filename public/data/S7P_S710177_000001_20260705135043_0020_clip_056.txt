@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard from Elevated Platform', 'description': 'The camera is positioned on an elevated structure with no visible guardrails or fall protection systems in place. Workers operating in this area are at high risk of falling due to the lack of edge protection, especially given the height and proximity to large industrial structures. This constitutes a severe safety violation under occupational health and safety regulations.'}
+
+{'severity': 'High', 'name': 'Exposure to High-Noise Environment', 'description': 'The location appears to be near large industrial stacks and processing units, which are typically associated with high levels of noise from machinery, ventilation systems, and operational processes. The absence of visible hearing protection for personnel indicates a potential violation of noise exposure standards, posing long-term health risks such as hearing loss.'}
+
+{'severity': 'Medium', 'name': 'Unsecured Cables and Wires', 'description': 'Multiple cables and wires are seen running across the platform without proper bundling or securing. These could pose tripping hazards for workers moving around the area and may also be susceptible to damage or electrical faults if not properly maintained.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible Safety Signage', 'description': 'There are no visible warning signs or safety instructions posted in the immediate vicinity, despite being in a high-risk industrial environment. While not immediately life-threatening, this omission can contribute to reduced situational awareness and compliance with safety protocols.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities, including unprotected edges, unsecured wiring, and lack of personal protective equipment (PPE) visibility. The overall environment presents significant hazards that require immediate corrective actions to ensure worker safety.

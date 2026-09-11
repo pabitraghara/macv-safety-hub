@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The video shows a worker ascending a metal staircase in an industrial facility with no visible fall protection equipment. The staircase is located near high-level platforms and open edges, and there are no guardrails or safety barriers at the platform edge, creating a significant risk of falls from height. This constitutes a critical safety violation as it exposes personnel to life-threatening fall hazards.'}
+
+{'severity': 'High', 'name': 'Inadequate Guardrail Protection', 'description': 'The platform at the top of the staircase lacks proper guardrails or protective barriers on the open sides, increasing the risk of accidental falls. This is especially dangerous given the height and industrial environment, where sudden movements or slips could lead to severe injury or fatality.'}
+
+{'severity': 'Medium', 'name': 'Poor Visibility and Obstructed Pathways', 'description': 'The surrounding area contains numerous pipes, beams, and structural elements that may obstruct visibility and create tripping hazards. The complex layout increases the risk of collisions or missteps, particularly for workers unfamiliar with the site.'}
+
+{'severity': 'Low', 'name': 'Lack of Clear Signage', 'description': 'There are no visible safety signs indicating warnings about fall risks, emergency exits, or restricted areas. Proper signage would help reinforce safety awareness and guide safe navigation through the facility.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the lack of fall protection and guardrails at elevated work areas, which poses a critical hazard. Additional issues include poor visibility due to cluttered surroundings and insufficient safety signage, contributing to overall operational risk.

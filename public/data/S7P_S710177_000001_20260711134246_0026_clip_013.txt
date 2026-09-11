@@ -1,0 +1,16 @@
+OBSERVATIONS
+==================================================
+
+{'severity': 'Critical', 'name': 'Unprotected Fall Hazard', 'description': 'The worker is operating at height on a platform with an open edge and no visible fall protection system in place. The individual is holding onto yellow handrails, but there is no safety harness or lanyard attached to a secure anchor point. This poses a significant risk of falling from elevation, especially given the complex industrial environment below with potential for serious injury or fatality.'}
+
+{'severity': 'High', 'name': 'Inadequate Guarding on Walkway', 'description': 'The walkway features metal grating that provides limited fall protection, particularly if the grating is damaged or improperly installed. The absence of full-height guardrails or toe boards increases the risk of slipping or tripping, leading to falls or objects dropping into lower levels.'}
+
+{'severity': 'Medium', 'name': 'Improper Use of Handrails', 'description': 'While the worker is using the handrails for support, they are not being used as part of a fall arrest system. Relying solely on handrails for balance without proper personal protective equipment (PPE) such as a harness is insufficient for high-risk environments and may give a false sense of security.'}
+
+{'severity': 'Low', 'name': 'Lack of Visible PPE Compliance', 'description': 'Although not clearly visible, the worker appears to be wearing a plaid shirt which may not meet required PPE standards for industrial settings. Proper clothing such as high-visibility garments, hard hats, and gloves should be worn to ensure safety and visibility in such environments.'}
+
+
+DESCRIPTION
+==================================================
+
+The video shows a comprehensive view of safety conditions and practices. Multiple safety violations and risk factors are observed across different areas and activities. The most pressing concern is the lack of fall protection while working at height, which constitutes a critical hazard. Additional risks include inadequate guarding, improper use of handrails, and potential non-compliance with PPE requirements.
