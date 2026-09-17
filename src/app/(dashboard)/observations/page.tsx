@@ -1,377 +1,229 @@
 "use client";
 
-import type { Observation, ObservationStatus } from "@/api/observations/types";
+import { useEffect, useMemo, useState } from "react";
+import { format } from "date-fns";
+import { RefreshCw } from "lucide-react";
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { DataTable } from "@/components/ui/data-table";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { SafetyAnalysisCard } from "@/components/observations/SafetyAnalysisCard";
+import { VideoThumbnail } from "@/components/observations/VideoThumbnail";
 import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
+  SEVERITY_BADGE_CLASS,
+  SeverityIcon,
+} from "@/components/observations/severity";
 import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import {
-  ChevronLeft,
-  ChevronRight,
-  ChevronsLeft,
-  ChevronsRight,
-  RefreshCw,
-  ShieldCheck,
-} from "lucide-react";
-import { ViolationTagsDisplay } from "@/components/observations/ViolationTags";
-import { ObservationModal } from "@/components/observations/ObservationModal";
-import { format } from "date-fns";
-import { useRouter } from "next/navigation";
-import { useEffect, useState, useMemo } from "react";
+  parseSafetyAnalysis,
+  type SafetyAnalysis,
+} from "@/lib/safety-analysis";
+import { posterUrlFor } from "@/lib/media";
 
-// Helper function to parse raw TXT string into formatted summary + violations array
-function parseRawDescription(rawText: string) {
-  const violations: { id: string; name: string; category: string }[] = [];
-  let summaryText = "";
-
-  if (!rawText) return { summaryText: "No details available.", violations };
-
-  const jsonBlockRegex = /\{'severity':.*?'description':.*?'\}/g;
-  const matches = rawText.match(jsonBlockRegex);
-
-  if (matches) {
-    matches.forEach((match, idx) => {
-      try {
-        const validJsonStr = match.replace(/'/g, '"');
-        const parsed = JSON.parse(validJsonStr);
-        violations.push({
-          id: `v-${idx}`,
-          name: parsed.name,
-          category: parsed.severity,
-        });
-      } catch (e) {
-        const nameMatch = match.match(/'name':\s*'([^']+)'/);
-        if (nameMatch) {
-          violations.push({
-            id: `v-${idx}`,
-            name: nameMatch[1],
-            category: "Observation",
-          });
-        }
-      }
-    });
-  }
-
-  if (
-    rawText.includes(
-      "DESCRIPTION\r\n==================================================",
-    )
-  ) {
-    summaryText = rawText
-      .split(
-        "DESCRIPTION\r\n==================================================",
-      )[1]
-      .trim();
-  } else {
-    summaryText = rawText.slice(0, 150) + "...";
-  }
-
-  return { summaryText, violations };
+interface Violation {
+  id: string;
+  code: string;
+  videoUrl: string;
+  timestamp: string | null;
+  analysis: SafetyAnalysis;
 }
 
-function getSeverityColor(severity: string) {
-  switch (severity?.toLowerCase()) {
-    case "low":
-      return "bg-green-100 text-green-800 border-green-200 dark:bg-green-900/30 dark:text-green-400 dark:border-green-800";
-    case "medium":
-      return "bg-yellow-100 text-yellow-800 border-yellow-200 dark:bg-yellow-900/30 dark:text-yellow-400 dark:border-yellow-800";
-    case "high":
-      return "bg-orange-100 text-orange-800 border-orange-200 dark:bg-orange-900/30 dark:text-orange-400 dark:border-orange-800";
-    case "critical":
-      return "bg-red-100 text-red-800 border-red-200 dark:bg-red-900/30 dark:text-red-400 dark:border-red-800";
-    default:
-      return "bg-muted text-muted-foreground border-border";
-  }
+/** Shape of one entry in public/observations.json, written by generate-index. */
+interface RawObservation {
+  id: string;
+  code: string;
+  videoUrl: string;
+  description: string;
+  timestamp: string | null;
 }
 
-function getStatusColor(status: ObservationStatus) {
-  switch (status) {
-    case "open":
-      return "bg-blue-100 text-blue-800 border-blue-200 dark:bg-blue-900/30 dark:text-blue-400 dark:border-blue-800";
-    case "confirmed":
-      return "bg-red-100 text-red-800 border-red-200 dark:bg-red-900/30 dark:text-red-400 dark:border-red-800";
-    case "false_positive":
-      return "bg-muted text-muted-foreground border-border";
-    case "escalated":
-      return "bg-orange-100 text-orange-800 border-orange-200 dark:bg-orange-900/30 dark:text-orange-400 dark:border-orange-800";
-    default:
-      return "bg-muted text-muted-foreground border-border";
-  }
-}
-
-function formatDate(dateString: string | null) {
-  if (!dateString) return "N/A";
+function formatTimestamp(timestamp: string | null) {
+  if (!timestamp) return "—";
   try {
-    return format(new Date(dateString), "MMM dd, HH:mm");
+    return format(new Date(timestamp), "MMM dd, yyyy · HH:mm");
   } catch {
     return "Invalid date";
   }
 }
 
-export default function ObservationsPage() {
-  const router = useRouter();
-  const [selectedCode, setSelectedCode] = useState<string | null>(null);
-  const [observations, setObservations] = useState<Observation[]>([]);
-  const [loading, setLoading] = useState(true);
+function ViolationRow({
+  violation,
+  isSelected,
+  onSelect,
+}: {
+  violation: Violation;
+  isSelected: boolean;
+  onSelect: () => void;
+}) {
+  const { maxSeverity, issues } = violation.analysis;
 
-  // ─── PAGINATION STATE ──────────────────────────────────────────────────────
-  const [currentPage, setCurrentPage] = useState(1);
-  const [pageSize, setPageSize] = useState(10);
+  return (
+    <button
+      type="button"
+      onClick={onSelect}
+      aria-current={isSelected}
+      className={`flex w-full items-center gap-3 border-b p-3 text-left transition-colors last:border-b-0 ${
+        isSelected ? "bg-muted" : "hover:bg-muted/50"
+      }`}
+    >
+      <VideoThumbnail
+        src={posterUrlFor(violation.videoUrl)}
+        alt={`First frame of clip ${violation.code}`}
+        className="h-12 w-20 shrink-0 rounded"
+      />
+      <div className="min-w-0 flex-1">
+        <p className="truncate font-mono text-xs">{violation.code}</p>
+        <p className="text-muted-foreground mt-1 text-xs">
+          {issues.length} {issues.length === 1 ? "issue" : "issues"}
+        </p>
+      </div>
+      <Badge
+        variant="outline"
+        className={`shrink-0 gap-1 ${SEVERITY_BADGE_CLASS[maxSeverity]}`}
+      >
+        <SeverityIcon severity={maxSeverity} className="h-3 w-3" />
+        {maxSeverity}
+      </Badge>
+    </button>
+  );
+}
+
+export default function ObservationsPage() {
+  const [violations, setViolations] = useState<Violation[]>([]);
+  const [selectedCode, setSelectedCode] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    async function loadObservations() {
+    let cancelled = false;
+
+    async function loadViolations() {
+      setLoading(true);
+      setError(null);
       try {
         const res = await fetch("/observations.json");
-        const rawData = await res.json();
+        if (!res.ok) throw new Error(`Request failed with ${res.status}`);
 
-        const formattedData: Observation[] = rawData.map((item: any) => {
-          const { summaryText, violations } = parseRawDescription(
-            item.description,
-          );
+        const raw: RawObservation[] = await res.json();
+        const parsed: Violation[] = raw.map((item) => ({
+          id: item.id,
+          code: item.code,
+          videoUrl: item.videoUrl,
+          timestamp: item.timestamp,
+          // Severity comes from the agent output itself, not the placeholder
+          // value generate-index writes alongside it.
+          analysis: parseSafetyAnalysis(item.description),
+        }));
 
-          return {
-            id: item.id,
-            code: item.code,
-            description: summaryText,
-            severity: item.severity,
-            review_status: item.status as ObservationStatus,
-            timestamp: item.timestamp,
-            thumbnail_url: item.videoUrl,
-            video_url: item.videoUrl,
-            violations: violations,
-          };
-        });
-
-        setObservations(formattedData);
+        if (cancelled) return;
+        setViolations(parsed);
+        setSelectedCode(parsed[0]?.code ?? null);
       } catch (err) {
         console.error("Failed to load observations.json", err);
+        if (!cancelled) setError("Could not load violations.");
       } finally {
-        setLoading(false);
+        if (!cancelled) setLoading(false);
       }
     }
 
-    loadObservations();
+    loadViolations();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  // Calculate paginated slice
-  const totalItems = observations.length;
-  const totalPages = Math.ceil(totalItems / pageSize) || 1;
-
-  const currentObservations = useMemo(() => {
-    const start = (currentPage - 1) * pageSize;
-    return observations.slice(start, start + pageSize);
-  }, [observations, currentPage, pageSize]);
-
-  const observationCodes = observations.map((o) => o.code);
-
-  const handlePageSizeChange = (value: string) => {
-    setPageSize(Number(value));
-    setCurrentPage(1);
-  };
-
-  if (loading) {
-    return (
-      <div className="text-muted-foreground flex h-64 items-center justify-center text-sm">
-        Loading observations...
-      </div>
-    );
-  }
+  const selected = useMemo(
+    () =>
+      violations.find((violation) => violation.code === selectedCode) ?? null,
+    [violations, selectedCode],
+  );
 
   return (
-    <>
-      <ObservationModal
-        code={selectedCode}
-        onClose={() => setSelectedCode(null)}
-        observationCodes={observationCodes}
-        onNavigate={setSelectedCode}
-      />
-      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex min-w-0 items-baseline gap-2">
-            <h1 className="text-2xl font-semibold">Observations</h1>
-            <span className="text-muted-foreground text-sm">
-              {totalItems} total
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2">
-            {/* <Button
-              onClick={() => router.push("/observations/validate")}
-              variant="outline"
-              size="sm"
-              className="h-8 gap-1.5"
-            >
-              <ShieldCheck className="h-4 w-4" />
-              <span className="hidden sm:inline">Validate</span>
-            </Button> */}
-            <Button
-              onClick={() => window.location.reload()}
-              variant="outline"
-              size="sm"
-              className="h-8"
-            >
-              <RefreshCw className="h-4 w-4" />
-            </Button>
-          </div>
+    // The dashboard chrome above this page is a 4rem header inside 1rem of
+    // padding, so 6rem is what the viewport has left for the page itself.
+    <div className="mx-auto flex w-full max-w-7xl flex-col px-4 sm:px-6 lg:h-[calc(100svh-6rem)] lg:px-8">
+      <div className="mb-4 flex shrink-0 items-center justify-between gap-4">
+        <div className="flex min-w-0 items-baseline gap-2">
+          <h1 className="text-2xl font-semibold">Violations</h1>
+          <span className="text-muted-foreground text-sm">
+            {violations.length} clips
+          </span>
         </div>
-
-        <DataTable>
-          <Table>
-            <TableHeader>
-              <TableRow>
-                <TableHead className="w-[100px]">Video Preview</TableHead>
-                <TableHead className="w-[160px]">Code</TableHead>
-                <TableHead className="min-w-[200px]">Description</TableHead>
-                <TableHead className="w-[100px] text-center">
-                  Severity
-                </TableHead>
-                <TableHead className="w-[120px] text-center">Status</TableHead>
-                <TableHead className="w-[180px]">Violations</TableHead>
-                <TableHead className="hidden w-[140px] text-center lg:table-cell">
-                  Timestamp
-                </TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {currentObservations.map((observation) => (
-                <TableRow
-                  key={observation.id}
-                  className="hover:bg-muted/50 cursor-pointer transition-colors"
-                  onClick={() => setSelectedCode(observation.code)}
-                >
-                  <TableCell>
-                    <div className="h-16 w-24 overflow-hidden rounded bg-black">
-                      <video
-                        src={observation.thumbnail_url ?? undefined}
-                        muted
-                        playsInline
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
-                  </TableCell>
-                  <TableCell className="font-mono text-xs">
-                    {observation.code}
-                  </TableCell>
-                  <TableCell>
-                    <div className="text-foreground max-w-[240px] truncate text-sm font-medium">
-                      {observation.description}
-                    </div>
-                  </TableCell>
-                  <TableCell className="text-center">
-                    <Badge
-                      className={getSeverityColor(observation.severity)}
-                      variant="outline"
-                    >
-                      {observation.severity}
-                    </Badge>
-                  </TableCell>
-                  <TableCell className="text-center">
-                    <Badge
-                      className={getStatusColor(observation.review_status)}
-                      variant="outline"
-                    >
-                      {observation.review_status}
-                    </Badge>
-                  </TableCell>
-                  <TableCell>
-                    <ViolationTagsDisplay
-                      violations={observation.violations ?? []}
-                      max={2}
-                    />
-                  </TableCell>
-                  <TableCell className="text-muted-foreground hidden text-center text-xs lg:table-cell">
-                    {formatDate(observation.timestamp)}
-                  </TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </DataTable>
-
-        {/* ─── PAGINATION CONTROLS ────────────────────────────────────────────── */}
-        <div className="mt-4 flex flex-col items-center justify-between gap-4 px-2 sm:flex-row">
-          <div className="text-muted-foreground flex items-center gap-2 text-sm">
-            <span>Rows per page</span>
-            <Select
-              value={pageSize.toString()}
-              onValueChange={handlePageSizeChange}
-            >
-              <SelectTrigger className="h-8 w-[70px]">
-                <SelectValue placeholder={pageSize.toString()} />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="5">5</SelectItem>
-                <SelectItem value="10">10</SelectItem>
-                <SelectItem value="25">25</SelectItem>
-                <SelectItem value="50">50</SelectItem>
-              </SelectContent>
-            </Select>
-            <span className="ml-2">
-              Showing {Math.min((currentPage - 1) * pageSize + 1, totalItems)}{" "}
-              to {Math.min(currentPage * pageSize, totalItems)} of {totalItems}
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <span className="text-muted-foreground mr-2 text-sm">
-              Page {currentPage} of {totalPages}
-            </span>
-
-            <Button
-              variant="outline"
-              size="icon"
-              className="h-8 w-8"
-              onClick={() => setCurrentPage(1)}
-              disabled={currentPage === 1}
-            >
-              <ChevronsLeft className="h-4 w-4" />
-            </Button>
-            <Button
-              variant="outline"
-              size="icon"
-              className="h-8 w-8"
-              onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
-              disabled={currentPage === 1}
-            >
-              <ChevronLeft className="h-4 w-4" />
-            </Button>
-            <Button
-              variant="outline"
-              size="icon"
-              className="h-8 w-8"
-              onClick={() =>
-                setCurrentPage((prev) => Math.min(prev + 1, totalPages))
-              }
-              disabled={currentPage === totalPages}
-            >
-              <ChevronRight className="h-4 w-4" />
-            </Button>
-            <Button
-              variant="outline"
-              size="icon"
-              className="h-8 w-8"
-              onClick={() => setCurrentPage(totalPages)}
-              disabled={currentPage === totalPages}
-            >
-              <ChevronsRight className="h-4 w-4" />
-            </Button>
-          </div>
-        </div>
+        <Button
+          onClick={() => window.location.reload()}
+          variant="outline"
+          size="sm"
+          className="h-8"
+          aria-label="Reload violations"
+        >
+          <RefreshCw className="h-4 w-4" />
+        </Button>
       </div>
-    </>
+
+      {error ? (
+        <Card className="border-destructive/50">
+          <CardContent className="text-destructive text-center text-sm">
+            {error}
+          </CardContent>
+        </Card>
+      ) : loading ? (
+        <Card>
+          <CardContent className="text-muted-foreground py-16 text-center text-sm">
+            Loading violations…
+          </CardContent>
+        </Card>
+      ) : violations.length === 0 ? (
+        <Card>
+          <CardContent className="text-muted-foreground py-16 text-center text-sm">
+            No violations have been uploaded yet.
+          </CardContent>
+        </Card>
+      ) : (
+        <div className="grid min-h-0 flex-1 gap-4 lg:grid-cols-[340px_1fr]">
+          <Card className="h-fit min-w-0 gap-0 py-0 lg:h-full lg:min-h-0">
+            <CardContent className="max-h-[70svh] overflow-y-auto p-0 lg:h-full lg:max-h-none">
+              {violations.map((violation) => (
+                <ViolationRow
+                  key={violation.id}
+                  violation={violation}
+                  isSelected={violation.code === selectedCode}
+                  onSelect={() => setSelectedCode(violation.code)}
+                />
+              ))}
+            </CardContent>
+          </Card>
+
+          {selected && (
+            <Card className="min-w-0 lg:h-full lg:min-h-0">
+              <CardHeader className="shrink-0">
+                <CardTitle className="flex flex-wrap items-center justify-between gap-2">
+                  <span className="font-mono text-sm font-normal break-all">
+                    {selected.code}
+                  </span>
+                  <span className="text-muted-foreground text-xs font-normal">
+                    {formatTimestamp(selected.timestamp)}
+                  </span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-6 lg:min-h-0 lg:flex-1 lg:overflow-y-auto">
+                <div className="overflow-hidden rounded-lg border bg-black">
+                  <video
+                    key={selected.videoUrl}
+                    src={selected.videoUrl}
+                    poster={posterUrlFor(selected.videoUrl)}
+                    controls
+                    preload="metadata"
+                    className="h-auto w-full"
+                  >
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+
+                <SafetyAnalysisCard analysis={selected.analysis} />
+              </CardContent>
+            </Card>
+          )}
+        </div>
+      )}
+    </div>
   );
 }
