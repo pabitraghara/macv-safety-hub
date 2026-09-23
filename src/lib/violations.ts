@@ -73,11 +73,14 @@ function formatSessionLabel(
   sessionId: string,
 ): string {
   if (!capturedAt) return sessionId;
-  return capturedAt.toLocaleString("en-US", {
+  // 24-hour clock keeps the label short enough for the donut legend, which is
+  // only about a third of a dashboard row wide.
+  return capturedAt.toLocaleString("en-GB", {
     month: "short",
     day: "numeric",
     hour: "2-digit",
     minute: "2-digit",
+    hour12: false,
   });
 }
 

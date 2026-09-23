@@ -4,7 +4,7 @@ import { useState } from "react";
 import { format } from "date-fns";
 import { AlertTriangle, Film, ShieldAlert } from "lucide-react";
 
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useLocalDashboardData } from "./hooks/useLocalDashboardData";
 import { HighlightedIncidents } from "./components/HighlightedIncidents";
@@ -13,7 +13,7 @@ import {
   CameraChart,
   ViolationTrendChart,
 } from "./components/ObservationCharts";
-import { StatBars } from "./components/StatBars";
+
 import { SeverityBar } from "./components/SeverityBar";
 import { severityBarColors, severityOrder } from "./components/helpers";
 import { DEFAULT_RANGE_DAYS, TIME_RANGES } from "./lib/time-window";
@@ -88,30 +88,27 @@ export default function HomePage() {
 
             <HighlightedIncidents loading={loading} violations={violations} />
 
-            {/* Charts + Stat Bars */}
-            <div className="grid gap-4 lg:grid-cols-[1fr_2fr]">
-              <div className="flex flex-col gap-4">
-                <ViolationTypeChart
-                  loading={loading}
-                  stats={stats}
-                  days={days}
-                  title="Issues by Category"
-                  windowLabel={windowLabel}
-                />
-                <CameraChart
-                  loading={loading}
-                  stats={stats}
-                  days={days}
-                  title="Clips by Recording"
-                  emptyMessage="No recordings yet"
-                  windowLabel={windowLabel}
-                />
-              </div>
-
-              <StatBars
+            {/* Breakdown charts, side by side */}
+            <div className="grid gap-4 lg:grid-cols-3">
+              <ViolationTypeChart
                 loading={loading}
                 stats={stats}
                 days={days}
+                title="Issues by Category"
+                windowLabel={windowLabel}
+              />
+              <CameraChart
+                loading={loading}
+                stats={stats}
+                days={days}
+                title="Clips by Recording"
+                emptyMessage="No recordings yet"
+                windowLabel={windowLabel}
+              />
+              <SeverityBreakdown
+                loading={loading}
+                total={stats?.total ?? 0}
+                obsSeverities={obsSeverities}
                 windowLabel={windowLabel}
               />
             </div>
@@ -122,13 +119,6 @@ export default function HomePage() {
               data={dailyByViolationType}
               days={days}
               windowLabel={windowLabel}
-            />
-
-            {/* Severity Breakdown */}
-            <SeverityBreakdown
-              loading={loading}
-              total={stats?.total ?? 0}
-              obsSeverities={obsSeverities}
             />
           </>
         )}
@@ -220,24 +210,27 @@ function SummaryCards({
   );
 }
 
+/** Styled to match the chart cards it sits beside in the breakdown row. */
 function SeverityBreakdown({
   loading,
   total,
   obsSeverities,
+  windowLabel,
 }: {
   loading: boolean;
   total: number;
   obsSeverities: Record<string, number>;
+  windowLabel: string;
 }) {
   return (
-    <Card>
-      <CardContent className="space-y-3 px-4 py-4">
-        <div className="flex items-baseline justify-between">
-          <h2 className="text-sm font-semibold">Clips by Severity</h2>
-          <span className="text-muted-foreground text-xs">
-            Highest severity issue in each clip
-          </span>
-        </div>
+    <Card className="flex flex-col">
+      <CardHeader className="pb-2">
+        <CardTitle className="text-sm">Clips by Severity</CardTitle>
+        <p className="text-muted-foreground text-xs">
+          {windowLabel} · highest severity issue in each clip
+        </p>
+      </CardHeader>
+      <CardContent className="flex flex-1 flex-col justify-center gap-2 px-4 pb-4">
         {loading ? (
           <div className="space-y-3">
             {[1, 2, 3, 4].map((i) => (

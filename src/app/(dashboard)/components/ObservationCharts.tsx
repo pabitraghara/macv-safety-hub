@@ -79,11 +79,16 @@ export function ViolationTypeChart({
           <div className="space-y-2.5">
             {rows.map((row, i) => (
               <div key={row.code} className="space-y-1">
-                <div className="flex justify-between text-xs">
-                  <span className="text-foreground/80 max-w-[70%] truncate font-medium">
+                <div className="flex justify-between gap-2 text-xs">
+                  {/* Takes whatever the count leaves, rather than a fixed 70%,
+                      so long names survive a narrow column. */}
+                  <span
+                    className="text-foreground/80 min-w-0 flex-1 truncate font-medium"
+                    title={row.name}
+                  >
                     {row.name}
                   </span>
-                  <span className="text-muted-foreground tabular-nums">
+                  <span className="text-muted-foreground shrink-0 tabular-nums">
                     {row.count}
                   </span>
                 </div>
@@ -209,10 +214,13 @@ export function CameraChart({
           {windowLabel ?? formatWindowLabel(days)}
         </p>
       </CardHeader>
-      <CardContent className="flex flex-1 flex-col justify-center px-4 pb-4">
+      {/* Container query, not a viewport one: this card is a third of a row on
+          the dashboard, where a side-by-side legend has no room for its labels
+          and truncates them to a letter. */}
+      <CardContent className="@container flex flex-1 flex-col justify-center px-4 pb-4">
         {loading ? (
-          <div className="flex gap-4">
-            <Skeleton className="h-[100px] w-[100px] rounded-full" />
+          <div className="flex flex-col gap-4 @xs:flex-row">
+            <Skeleton className="h-[100px] w-[100px] shrink-0 rounded-full" />
             <div className="flex-1 space-y-2 pt-2">
               {[1, 2, 3, 4].map((i) => (
                 <Skeleton key={i} className="h-4 w-full" />
@@ -222,11 +230,11 @@ export function CameraChart({
         ) : rows.length === 0 ? (
           <p className="text-muted-foreground text-sm">{emptyMessage}</p>
         ) : (
-          <div className="flex items-center gap-5">
+          <div className="flex flex-col items-center gap-4 @xs:flex-row @xs:gap-5">
             <div className="shrink-0">
               <DonutChart data={colored} size={110} />
             </div>
-            <div className="flex flex-1 flex-col gap-1.5 overflow-hidden">
+            <div className="flex w-full flex-1 flex-col gap-1.5 overflow-hidden">
               {colored.map((row) => (
                 <div
                   key={row.label}
@@ -235,10 +243,13 @@ export function CameraChart({
                   <span
                     className={`inline-block h-2 w-2 shrink-0 rounded-full ${row.bgColor}`}
                   />
-                  <span className="text-foreground/80 min-w-0 flex-1 truncate">
+                  <span
+                    className="text-foreground/80 min-w-0 flex-1 truncate"
+                    title={row.label}
+                  >
                     {row.label}
                   </span>
-                  <span className="text-muted-foreground tabular-nums">
+                  <span className="text-muted-foreground shrink-0 tabular-nums">
                     {row.count}
                   </span>
                 </div>
