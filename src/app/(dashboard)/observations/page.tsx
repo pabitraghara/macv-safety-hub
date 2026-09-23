@@ -13,33 +13,12 @@ import {
   SEVERITY_BADGE_CLASS,
   SeverityIcon,
 } from "@/components/observations/severity";
-import {
-  parseSafetyAnalysis,
-  type SafetyAnalysis,
-} from "@/lib/safety-analysis";
-import { posterUrlFor } from "@/lib/media";
+import { loadViolations, type Violation } from "@/lib/violations";
 
-interface Violation {
-  id: string;
-  code: string;
-  videoUrl: string;
-  timestamp: string | null;
-  analysis: SafetyAnalysis;
-}
-
-/** Shape of one entry in public/observations.json, written by generate-index. */
-interface RawObservation {
-  id: string;
-  code: string;
-  videoUrl: string;
-  description: string;
-  timestamp: string | null;
-}
-
-function formatTimestamp(timestamp: string | null) {
-  if (!timestamp) return "—";
+function formatCaptured(capturedAt: Date | null) {
+  if (!capturedAt) return "—";
   try {
-    return format(new Date(timestamp), "MMM dd, yyyy · HH:mm");
+    return format(capturedAt, "MMM dd, yyyy · HH:mm");
   } catch {
     return "Invalid date";
   }
@@ -66,7 +45,7 @@ function ViolationRow({
       }`}
     >
       <VideoThumbnail
-        src={posterUrlFor(violation.videoUrl)}
+        src={violation.posterUrl}
         alt={`First frame of clip ${violation.code}`}
         className="h-12 w-20 shrink-0 rounded"
       />
@@ -94,41 +73,23 @@ export default function ObservationsPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    let cancelled = false;
+    const controller = new AbortController();
 
-    async function loadViolations() {
-      setLoading(true);
-      setError(null);
-      try {
-        const res = await fetch("/observations.json");
-        if (!res.ok) throw new Error(`Request failed with ${res.status}`);
-
-        const raw: RawObservation[] = await res.json();
-        const parsed: Violation[] = raw.map((item) => ({
-          id: item.id,
-          code: item.code,
-          videoUrl: item.videoUrl,
-          timestamp: item.timestamp,
-          // Severity comes from the agent output itself, not the placeholder
-          // value generate-index writes alongside it.
-          analysis: parseSafetyAnalysis(item.description),
-        }));
-
-        if (cancelled) return;
+    loadViolations(controller.signal)
+      .then((parsed) => {
         setViolations(parsed);
         setSelectedCode(parsed[0]?.code ?? null);
-      } catch (err) {
+      })
+      .catch((err: unknown) => {
+        if (controller.signal.aborted) return;
         console.error("Failed to load observations.json", err);
-        if (!cancelled) setError("Could not load violations.");
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
+        setError("Could not load violations.");
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) setLoading(false);
+      });
 
-    loadViolations();
-    return () => {
-      cancelled = true;
-    };
+    return () => controller.abort();
   }, []);
 
   const selected = useMemo(
@@ -200,7 +161,7 @@ export default function ObservationsPage() {
                     {selected.code}
                   </span>
                   <span className="text-muted-foreground text-xs font-normal">
-                    {formatTimestamp(selected.timestamp)}
+                    {formatCaptured(selected.capturedAt)}
                   </span>
                 </CardTitle>
               </CardHeader>
@@ -209,7 +170,7 @@ export default function ObservationsPage() {
                   <video
                     key={selected.videoUrl}
                     src={selected.videoUrl}
-                    poster={posterUrlFor(selected.videoUrl)}
+                    poster={selected.posterUrl}
                     controls
                     preload="metadata"
                     className="h-auto w-full"

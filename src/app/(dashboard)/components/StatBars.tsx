@@ -14,6 +14,10 @@ function buildMiniChartFromDaily(
   field: "total" | "open" | "critical",
   buckets = 20,
   days = DEFAULT_RANGE_DAYS,
+  // Window end. Defaults to now; pass the newest data point when the series is
+  // a fixed archive, otherwise every bucket falls outside the window and the
+  // chart reads as empty.
+  endMs?: number,
 ): number[] {
   if (dailyCounts.length === 0) return Array<number>(buckets).fill(0);
 
@@ -24,7 +28,7 @@ function buildMiniChartFromDaily(
   }
 
   // Build window bucketed into `buckets` slots
-  const now = Date.now();
+  const now = endMs ?? Date.now();
   const windowMs = days * 24 * 60 * 60 * 1000;
   const bucketMs = windowMs / buckets;
   const counts = Array<number>(buckets).fill(0);
@@ -139,18 +143,32 @@ export function StatBars({
   loading,
   stats,
   days = DEFAULT_RANGE_DAYS,
+  windowLabel,
 }: {
   loading: boolean;
   stats: ObservationStats | null;
   days?: number;
+  windowLabel?: string;
 }) {
   const daily = stats?.daily_counts ?? [];
 
-  const obsChart = buildMiniChartFromDaily(daily, "total", 20, days);
-  const openChart = buildMiniChartFromDaily(daily, "open", 20, days);
-  const criticalChart = buildMiniChartFromDaily(daily, "critical", 20, days);
+  // Anchor the sparklines to the newest day present, so a fixed archive still
+  // renders; a live feed's newest day is today, leaving behaviour unchanged.
+  const endMs = daily.length
+    ? new Date(`${daily[daily.length - 1].date}T23:59:59`).getTime()
+    : undefined;
 
-  const label = formatWindowLabel(days);
+  const obsChart = buildMiniChartFromDaily(daily, "total", 20, days, endMs);
+  const openChart = buildMiniChartFromDaily(daily, "open", 20, days, endMs);
+  const criticalChart = buildMiniChartFromDaily(
+    daily,
+    "critical",
+    20,
+    days,
+    endMs,
+  );
+
+  const label = windowLabel ?? formatWindowLabel(days);
 
   return (
     <div className="flex flex-col gap-4">

@@ -1,69 +1,67 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useRef } from "react";
 import Link from "next/link";
 import { ArrowRight, ChevronRight, Eye } from "lucide-react";
+
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
-import { severityColor, formatLabel, timeAgo } from "./helpers";
-import { observationsApi } from "@/api/observations/api";
-import type { Observation } from "@/api/observations/types";
-import type { PaginatedResponse } from "@/api/base/http";
+import { severityColor } from "./helpers";
+import type { Violation } from "@/lib/violations";
 
-function ObservationCard({ obs }: { obs: Observation }) {
+function formatCaptured(capturedAt: Date | null): string {
+  if (!capturedAt) return "Unknown date";
+  return capturedAt.toLocaleString("en-US", {
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function ViolationCard({ violation }: { violation: Violation }) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   function handleMouseEnter() {
+    // The clip is only fetched on hover; the poster carries the card until then.
     videoRef.current?.play().catch(() => {});
   }
 
   function handleMouseLeave() {
-    const v = videoRef.current;
-    if (!v) return;
-    v.pause();
-    v.currentTime = 0;
+    const video = videoRef.current;
+    if (!video) return;
+    video.pause();
+    video.currentTime = 0;
   }
+
+  const topIssue = violation.analysis.issues[0];
 
   return (
     <Link
-      href={`/observations/${obs.code}`}
+      href={`/observations/${violation.code}`}
       className="group relative flex h-48 w-72 shrink-0 flex-col justify-end overflow-hidden rounded-xl bg-gradient-to-br from-blue-700 to-blue-900 p-4 transition-transform hover:scale-[1.02]"
-      onMouseEnter={obs.video_url ? handleMouseEnter : undefined}
-      onMouseLeave={obs.video_url ? handleMouseLeave : undefined}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
-      {/* Thumbnail always visible as base layer */}
-      {obs.thumbnail_url ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={obs.thumbnail_url}
-          alt=""
-          className="absolute inset-0 h-full w-full object-cover"
-        />
-      ) : !obs.video_url ? (
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(255,255,255,0.15),transparent_60%)]" />
-        </div>
-      ) : null}
-
-      {/* Video plays on hover, covers thumbnail */}
-      {obs.video_url && (
-        <video
-          ref={videoRef}
-          src={obs.video_url}
-          className="absolute inset-0 h-full w-full object-cover"
-          muted
-          playsInline
-          loop
-          preload="none"
-        />
-      )}
+      <video
+        ref={videoRef}
+        src={violation.videoUrl}
+        poster={violation.posterUrl}
+        className="absolute inset-0 h-full w-full object-cover"
+        muted
+        playsInline
+        loop
+        preload="none"
+      />
 
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="absolute top-3 right-3 z-10">
-        <Badge className={`text-[10px] ${severityColor(obs.severity)}`}>
-          {formatLabel(obs.severity)}
+        <Badge
+          className={`text-[10px] ${severityColor(violation.analysis.maxSeverity)}`}
+        >
+          {violation.analysis.maxSeverity}
         </Badge>
       </div>
 
@@ -77,38 +75,34 @@ function ObservationCard({ obs }: { obs: Observation }) {
 
       <div className="relative z-10">
         <p className="line-clamp-2 text-sm leading-snug font-semibold text-white">
-          {obs.description || obs.code}
+          {topIssue?.name ?? violation.code}
         </p>
         <p className="mt-1 text-xs text-white/60">
-          {obs.code} · {timeAgo(obs.created_at)}
+          {violation.analysis.issues.length} issues ·{" "}
+          {formatCaptured(violation.capturedAt)}
         </p>
       </div>
     </Link>
   );
 }
 
-export function HighlightedIncidents() {
-  const [observations, setObservations] = useState<Observation[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    observationsApi
-      .getObservations({ page: 1, page_size: 5 })
-      .then((res) => {
-        const items = Array.isArray(res)
-          ? res
-          : (res as PaginatedResponse<Observation>).items;
-        setObservations(items);
-      })
-      .catch(() => setObservations([]))
-      .finally(() => setLoading(false));
-  }, []);
+/** Newest clips, most recent footage first. */
+export function HighlightedIncidents({
+  loading,
+  violations,
+  limit = 8,
+}: {
+  loading: boolean;
+  violations: Violation[];
+  limit?: number;
+}) {
+  const recent = violations.slice(0, limit);
 
   return (
     <div>
       <div className="mb-3 flex items-center justify-between">
         <h2 className="text-muted-foreground text-sm font-semibold">
-          Recent Observations
+          Recent Clips
         </h2>
         <Link
           href="/observations"
@@ -125,14 +119,14 @@ export function HighlightedIncidents() {
             <Skeleton key={i} className="h-48 w-72 shrink-0 rounded-xl" />
           ))}
         </div>
-      ) : observations.length === 0 ? (
+      ) : recent.length === 0 ? (
         <p className="text-muted-foreground py-8 text-center text-sm">
-          No recent activity
+          No clips uploaded yet
         </p>
       ) : (
         <div className="flex gap-4 overflow-x-auto pb-2">
-          {observations.map((obs) => (
-            <ObservationCard key={obs.id} obs={obs} />
+          {recent.map((violation) => (
+            <ViolationCard key={violation.id} violation={violation} />
           ))}
         </div>
       )}

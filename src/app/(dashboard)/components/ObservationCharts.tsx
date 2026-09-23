@@ -7,6 +7,9 @@ import type {
 } from "@/api/observations/types";
 import { DEFAULT_RANGE_DAYS, formatWindowLabel } from "../lib/time-window";
 
+// Kept in step with DONUT_COLORS below — index N must be the same hue in both,
+// and the list must be at least as long as the largest category set charted,
+// or two series share a colour and read as one.
 const CHART_COLORS = [
   "bg-blue-500",
   "bg-violet-500",
@@ -16,6 +19,8 @@ const CHART_COLORS = [
   "bg-cyan-500",
   "bg-fuchsia-500",
   "bg-lime-500",
+  "bg-orange-500",
+  "bg-slate-500",
 ];
 
 const DONUT_COLORS = [
@@ -27,6 +32,8 @@ const DONUT_COLORS = [
   "#06b6d4",
   "#d946ef",
   "#84cc16",
+  "#f97316",
+  "#64748b",
 ];
 
 // ─── Violation Type Bar Chart ────────────────────────────────────────────────
@@ -35,10 +42,15 @@ export function ViolationTypeChart({
   loading,
   stats,
   days = DEFAULT_RANGE_DAYS,
+  title = "Observations by Violation Type",
+  windowLabel,
 }: {
   loading: boolean;
   stats: ObservationStats | null;
   days?: number;
+  title?: string;
+  /** Overrides the "Last 30 days" caption when the window is not relative to today. */
+  windowLabel?: string;
 }) {
   const rows = stats?.by_violation_type ?? [];
   const max = Math.max(...rows.map((r) => r.count), 1);
@@ -46,11 +58,9 @@ export function ViolationTypeChart({
   return (
     <Card className="flex flex-col">
       <CardHeader className="pb-2">
-        <CardTitle className="text-sm">
-          Observations by Violation Type
-        </CardTitle>
+        <CardTitle className="text-sm">{title}</CardTitle>
         <p className="text-muted-foreground text-xs">
-          {formatWindowLabel(days)}
+          {windowLabel ?? formatWindowLabel(days)}
         </p>
       </CardHeader>
       <CardContent className="flex flex-1 flex-col justify-center gap-2 px-4 pb-4">
@@ -172,10 +182,17 @@ export function CameraChart({
   loading,
   stats,
   days = DEFAULT_RANGE_DAYS,
+  title = "Observations by Camera",
+  emptyMessage = "No camera data yet",
+  windowLabel,
 }: {
   loading: boolean;
   stats: ObservationStats | null;
   days?: number;
+  /** The donut groups `stats.by_camera`, whatever that dimension represents. */
+  title?: string;
+  emptyMessage?: string;
+  windowLabel?: string;
 }) {
   const rows = stats?.by_camera ?? [];
   const colored = rows.map((r, i) => ({
@@ -187,9 +204,9 @@ export function CameraChart({
   return (
     <Card className="flex flex-col">
       <CardHeader className="pb-2">
-        <CardTitle className="text-sm">Observations by Camera</CardTitle>
+        <CardTitle className="text-sm">{title}</CardTitle>
         <p className="text-muted-foreground text-xs">
-          {formatWindowLabel(days)}
+          {windowLabel ?? formatWindowLabel(days)}
         </p>
       </CardHeader>
       <CardContent className="flex flex-1 flex-col justify-center px-4 pb-4">
@@ -203,7 +220,7 @@ export function CameraChart({
             </div>
           </div>
         ) : rows.length === 0 ? (
-          <p className="text-muted-foreground text-sm">No camera data yet</p>
+          <p className="text-muted-foreground text-sm">{emptyMessage}</p>
         ) : (
           <div className="flex items-center gap-5">
             <div className="shrink-0">
@@ -498,10 +515,12 @@ export function ViolationTrendChart({
   loading,
   data,
   days = DEFAULT_RANGE_DAYS,
+  windowLabel,
 }: {
   loading: boolean;
   data: DailyViolationTypeEntry[];
   days?: number;
+  windowLabel?: string;
 }) {
   const { series, dates } = useMemo(() => buildSeries(data), [data]);
 
@@ -510,7 +529,7 @@ export function ViolationTrendChart({
       <CardHeader className="pb-2">
         <CardTitle className="text-sm">Violation Trends</CardTitle>
         <p className="text-muted-foreground text-xs">
-          {formatWindowLabel(days)}
+          {windowLabel ?? formatWindowLabel(days)}
         </p>
       </CardHeader>
       <CardContent className="px-4 pb-4">

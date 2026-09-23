@@ -13,34 +13,18 @@ import {
   SEVERITY_BADGE_CLASS,
   SeverityIcon,
 } from "@/components/observations/severity";
-import {
-  parseSafetyAnalysis,
-  type SafetyAnalysis,
-} from "@/lib/safety-analysis";
-import { posterUrlFor } from "@/lib/media";
-
-/** Shape of one entry in public/observations.json, written by generate-index. */
-interface RawObservation {
-  id: string;
-  code: string;
-  videoUrl: string;
-  description: string;
-  timestamp: string | null;
-}
+import { loadViolations, type Violation } from "@/lib/violations";
 
 interface ViolationDetail {
-  code: string;
-  videoUrl: string;
-  timestamp: string | null;
-  analysis: SafetyAnalysis;
+  violation: Violation;
   prevCode: string | null;
   nextCode: string | null;
 }
 
-function formatTimestamp(timestamp: string | null) {
-  if (!timestamp) return "—";
+function formatCaptured(capturedAt: Date | null) {
+  if (!capturedAt) return "—";
   try {
-    return format(new Date(timestamp), "MMM dd, yyyy · HH:mm");
+    return format(capturedAt, "MMM dd, yyyy · HH:mm");
   } catch {
     return "Invalid date";
   }
@@ -61,42 +45,34 @@ export default function ObservationDetailPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    let cancelled = false;
+    const controller = new AbortController();
 
     async function loadObservation() {
       setLoading(true);
       setError(null);
       try {
-        const res = await fetch("/observations.json");
-        if (!res.ok) throw new Error(`Request failed with ${res.status}`);
-
-        const data: RawObservation[] = await res.json();
-        const index = data.findIndex((item) => item.code === codeParam);
+        const violations = await loadViolations(controller.signal);
+        const index = violations.findIndex((v) => v.code === codeParam);
         if (index === -1)
           throw new Error(`No violation with code ${codeParam}`);
 
-        const item = data[index];
-        if (cancelled) return;
         setDetail({
-          code: item.code,
-          videoUrl: item.videoUrl,
-          timestamp: item.timestamp,
-          analysis: parseSafetyAnalysis(item.description),
-          prevCode: index > 0 ? data[index - 1].code : null,
-          nextCode: index < data.length - 1 ? data[index + 1].code : null,
+          violation: violations[index],
+          prevCode: index > 0 ? violations[index - 1].code : null,
+          nextCode:
+            index < violations.length - 1 ? violations[index + 1].code : null,
         });
       } catch (err) {
+        if (controller.signal.aborted) return;
         console.error("Failed to load observations.json", err);
-        if (!cancelled) setError("Could not load this violation.");
+        setError("Could not load this violation.");
       } finally {
-        if (!cancelled) setLoading(false);
+        if (!controller.signal.aborted) setLoading(false);
       }
     }
 
     loadObservation();
-    return () => {
-      cancelled = true;
-    };
+    return () => controller.abort();
   }, [codeParam]);
 
   if (loading) {
@@ -153,18 +129,18 @@ export default function ObservationDetailPage() {
             <ChevronRight className="h-4 w-4" />
           </Button>
           <span className="text-muted-foreground ml-1 font-mono text-xs break-all">
-            {detail.code}
+            {detail.violation.code}
           </span>
         </div>
         <Badge
           variant="outline"
-          className={`shrink-0 gap-1 ${SEVERITY_BADGE_CLASS[detail.analysis.maxSeverity]}`}
+          className={`shrink-0 gap-1 ${SEVERITY_BADGE_CLASS[detail.violation.analysis.maxSeverity]}`}
         >
           <SeverityIcon
-            severity={detail.analysis.maxSeverity}
+            severity={detail.violation.analysis.maxSeverity}
             className="h-3 w-3"
           />
-          {detail.analysis.maxSeverity}
+          {detail.violation.analysis.maxSeverity}
         </Badge>
       </div>
 
@@ -173,16 +149,16 @@ export default function ObservationDetailPage() {
           <CardTitle className="flex flex-wrap items-center justify-between gap-2">
             <span>Safety Analysis Results</span>
             <span className="text-muted-foreground text-xs font-normal">
-              {formatTimestamp(detail.timestamp)}
+              {formatCaptured(detail.violation.capturedAt)}
             </span>
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
           <div className="overflow-hidden rounded-lg border bg-black">
             <video
-              key={detail.videoUrl}
-              src={detail.videoUrl}
-              poster={posterUrlFor(detail.videoUrl)}
+              key={detail.violation.videoUrl}
+              src={detail.violation.videoUrl}
+              poster={detail.violation.posterUrl}
               controls
               playsInline
               preload="metadata"
@@ -192,7 +168,7 @@ export default function ObservationDetailPage() {
             </video>
           </div>
 
-          <SafetyAnalysisCard analysis={detail.analysis} />
+          <SafetyAnalysisCard analysis={detail.violation.analysis} />
         </CardContent>
       </Card>
     </div>

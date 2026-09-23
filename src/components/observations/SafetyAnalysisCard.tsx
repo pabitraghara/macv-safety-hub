@@ -29,8 +29,11 @@ export function SafetyAnalysisCard({ analysis }: { analysis: SafetyAnalysis }) {
   const issues = sortIssuesBySeverity(analysis.issues);
 
   return (
-    <div className="space-y-6">
-      <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+    // Container query, not a viewport breakpoint: this card sits in the narrow
+    // right-hand pane of the violations list on some widths, where a
+    // viewport-sized grid would give the tiles ~60px and clip their labels.
+    <div className="@container space-y-6">
+      <div className="grid grid-cols-2 gap-2 @sm:grid-cols-4">
         {SEVERITY_ORDER.map((severity) => {
           const count = analysis.countsBySeverity[severity];
           return (
